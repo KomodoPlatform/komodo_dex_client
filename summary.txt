@@ -1,0 +1,7483 @@
+// A Generated summary of the coins config file. See summarise.sh to generate this file.
+
+
+Checking field: coin
+Possible null values:
+0
+Possible enum values:
+[
+  "1INCH-AVX20",
+  "1INCH-BEP20",
+  "1INCH-ERC20",
+  "1INCH-KRC20",
+  "1INCH-PLG20",
+  "AAVE-AVX20",
+  "AAVE-BEP20",
+  "AAVE-ERC20",
+  "AAVE-FTM20",
+  "AAVE-HCO20",
+  "AAVE-KRC20",
+  "AAVE-PLG20",
+  "ABY",
+  "ACTN",
+  "ACTN-BEP20",
+  "ADA-BEP20",
+  "ADX-BEP20",
+  "ADX-ERC20",
+  "AGEUR-AVX20",
+  "AGEUR-ERC20",
+  "AGEUR-PLG20",
+  "AGIX-ERC20",
+  "AGIX-PLG20",
+  "ANKR-BEP20",
+  "ANKR-ERC20",
+  "ANKR-PLG20",
+  "ANT-ERC20",
+  "APE-BEP20",
+  "APE-ERC20",
+  "APE-FTM20",
+  "APE-PLG20",
+  "ARPA-BEP20",
+  "ARPA-ERC20",
+  "ARRR",
+  "ARRR-BEP20",
+  "ASLP-SLP",
+  "ATOM",
+  "ATOM-BEP20",
+  "ATOM-IBC_IRIS",
+  "ATOM-PLG20",
+  "AUR",
+  "AVA-BEP20",
+  "AVAX",
+  "AVAX-BEP20",
+  "AVAXT",
+  "AVN",
+  "AVN-PLG20",
+  "AWC-ERC20",
+  "AXE",
+  "AXS-BEP20",
+  "AXS-ERC20",
+  "AYA",
+  "BABYDOGE-BEP20",
+  "BAL-BEP20",
+  "BAL-ERC20",
+  "BAL-KRC20",
+  "BAL-PLG20",
+  "BANANO-BEP20",
+  "BAND-BEP20",
+  "BAND-ERC20",
+  "BAND-FTM20",
+  "BAND-PLG20",
+  "BAT-AVX20",
+  "BAT-BEP20",
+  "BAT-ERC20",
+  "BAT-KRC20",
+  "BAT-PLG20",
+  "BCH",
+  "BCH-BEP20",
+  "BCH-ERC20",
+  "BCH-HCO20",
+  "BEST-ERC20",
+  "BET",
+  "BIDR-BEP20",
+  "BITN",
+  "BKC",
+  "BLK",
+  "BLK-BEP20",
+  "BNB",
+  "BNBT",
+  "BNT-BEP20",
+  "BNT-ERC20",
+  "BNT-PLG20",
+  "BOLI",
+  "BONE-ERC20",
+  "BOTS",
+  "BRZ-AVX20",
+  "BRZ-BEP20",
+  "BRZ-ERC20",
+  "BRZ-PLG20",
+  "BSTY",
+  "BSTY-segwit",
+  "BTC",
+  "BTC-BEP20",
+  "BTC-segwit",
+  "BTCZ",
+  "BTCZ-BEP20",
+  "BTE",
+  "BTE-segwit",
+  "BTT-BEP20",
+  "BTTC-BEP20",
+  "BTU-ERC20",
+  "BTU-PLG20",
+  "BTX",
+  "BTX-BEP20",
+  "BTX-segwit",
+  "BUSD-AVX20",
+  "BUSD-AVX20_OLD",
+  "BUSD-BEP20",
+  "BUSD-ERC20",
+  "BUSD-MVR20",
+  "BUSD-PLG20",
+  "CADC-ERC20",
+  "CADC-PLG20",
+  "CAKE-BEP20",
+  "CASE-BEP20",
+  "CCL",
+  "CDN",
+  "CDN-segwit",
+  "CEL-ERC20",
+  "CEL-PLG20",
+  "CELR-ARB20",
+  "CELR-BEP20",
+  "CELR-ERC20",
+  "CFX-BEP20",
+  "CHIPS",
+  "CHSB-ERC20",
+  "CHSB-PLG20",
+  "CHTA",
+  "CHZ-ERC20",
+  "CHZ-KRC20",
+  "CHZ-PLG20",
+  "CLC",
+  "COMP-AVX20",
+  "COMP-BEP20",
+  "COMP-ERC20",
+  "COMP-KRC20",
+  "COMP-PLG20",
+  "CRO-ERC20",
+  "CRO-KRC20",
+  "CRO-PLG20",
+  "CRV-AVX20",
+  "CRV-ERC20",
+  "CRV-FTM20",
+  "CRV-KRC20",
+  "CRV-PLG20",
+  "CRYPTO",
+  "CUMMIES-BEP20",
+  "CVC-ERC20",
+  "CVT-ERC20",
+  "CVX-ERC20",
+  "DAI-AVX20",
+  "DAI-BEP20",
+  "DAI-ERC20",
+  "DAI-FTM20",
+  "DAI-HCO20",
+  "DAI-MVR20",
+  "DAI-PLG20",
+  "DASH",
+  "DDD-ERC20",
+  "DENT-ERC20",
+  "DEX",
+  "DGB",
+  "DGB-segwit",
+  "DGC",
+  "DIA-BEP20",
+  "DIA-ERC20",
+  "DIMI",
+  "DIMI-BEP20",
+  "DIMI-QRC20",
+  "DOC",
+  "DODO-BEP20",
+  "DODO-ERC20",
+  "DODO-KRC20",
+  "DOGE",
+  "DOGE-BEP20",
+  "DOGEDASH-BEP20",
+  "DOGGY-BEP20",
+  "DOI",
+  "DOT-BEP20",
+  "DOT-HCO20",
+  "DP",
+  "DX-ERC20",
+  "ECA",
+  "EFL",
+  "EGLD-BEP20",
+  "EILN-ERC20",
+  "ELF-BEP20",
+  "ELF-ERC20",
+  "EMC2",
+  "ENJ-ERC20",
+  "ENJ-KRC20",
+  "ENJ-PLG20",
+  "EOS-BEP20",
+  "ETC",
+  "ETC-BEP20",
+  "ETH",
+  "ETH-ARB20",
+  "ETH-AVX20",
+  "ETH-BEP20",
+  "ETH-FTM20",
+  "ETH-HCO20",
+  "ETH-KRC20",
+  "ETH-PLG20",
+  "EUROE-ERC20",
+  "EUROE-PLG20",
+  "EURS-ERC20",
+  "EURS-PLG20",
+  "EVR",
+  "FEI-ERC20",
+  "FET-BEP20",
+  "FET-ERC20",
+  "FET-PLG20",
+  "FIL-BEP20",
+  "FIL-ERC20",
+  "FIL-HCO20",
+  "FIRO",
+  "FIRO-BEP20",
+  "FJC",
+  "FJC-BEP20",
+  "FJC-segwit",
+  "FJCB-BEP20",
+  "FLEXUSD-ERC20",
+  "FLEXUSD-SLP",
+  "FLOKI-BEP20",
+  "FLOW-BEP20",
+  "FLUX",
+  "FLUX-BEP20",
+  "FLUX-ERC20",
+  "FTC",
+  "FTC-segwit",
+  "FTM",
+  "FTM-BEP20",
+  "FTM-ERC20",
+  "FTMT",
+  "FXS-AVX20",
+  "FXS-BEP20",
+  "FXS-ERC20",
+  "FXS-FTM20",
+  "FXS-MVR20",
+  "FXS-PLG20",
+  "GALA-BEP20",
+  "GALA-ERC20",
+  "GFT-BEP20",
+  "GLEEC",
+  "GLM-ERC20",
+  "GLM-PLG20",
+  "GLMR",
+  "GM-BEP20",
+  "GMT-BEP20",
+  "GMX-AVX20",
+  "GNO-ERC20",
+  "GNO-PLG20",
+  "GNS-PLG20",
+  "GRLC",
+  "GRLC-BEP20",
+  "GRLC-ERC20",
+  "GRMS",
+  "GRS",
+  "GRS-segwit",
+  "GRT-AVX20",
+  "GRT-ERC20",
+  "GRT-KRC20",
+  "GRT-PLG20",
+  "GST-BEP20",
+  "GT-ERC20",
+  "GUSD-ERC20",
+  "HEX-ERC20",
+  "HEX-PLG20",
+  "HLC-QRC20",
+  "HODL",
+  "HOT-ERC20",
+  "HOT-PLG20",
+  "HPY-QRC20",
+  "HT",
+  "HT-ERC20",
+  "HUSD-ERC20",
+  "HUSD-HCO20",
+  "HUSD-KRC20",
+  "HUSD-PLG20",
+  "IL8P",
+  "ILN",
+  "ILN-BEP20",
+  "ILN-PLG20",
+  "ILNF-BEP20",
+  "ILNF-PLG20",
+  "ILNSW-PLG20",
+  "ILV-BEP20",
+  "ILV-ERC20",
+  "IMX-ERC20",
+  "INJ-BEP20",
+  "INJ-ERC20",
+  "INK-QRC20",
+  "IOTA-BEP20",
+  "IOTX-BEP20",
+  "IOTX-PLG20",
+  "IRIS",
+  "JAUD-PLG20",
+  "JBRL-BEP20",
+  "JBRL-PLG20",
+  "JCAD-PLG20",
+  "JCHF-AVX20",
+  "JCHF-BEP20",
+  "JCHF-ERC20",
+  "JCHF-PLG20",
+  "JCNY-PLG20",
+  "JDB-BEP20",
+  "JEUR-AVX20",
+  "JEUR-BEP20",
+  "JEUR-ERC20",
+  "JEUR-PLG20",
+  "JGBP-BEP20",
+  "JGBP-ERC20",
+  "JGBP-PLG20",
+  "JGOLD-PLG20",
+  "JJPY-PLG20",
+  "JKRW-PLG20",
+  "JMXN-PLG20",
+  "JNZD-PLG20",
+  "JOY-PLG20",
+  "JPHP-PLG20",
+  "JPLN-PLG20",
+  "JPYC-AVX20",
+  "JPYC-PLG20",
+  "JRT-ERC20",
+  "JRT-PLG20",
+  "JSEK-PLG20",
+  "JSGD-PLG20",
+  "JST-BEP20",
+  "JTRY-PLG20",
+  "JUMBLR",
+  "JUSD-PLG20",
+  "KCS",
+  "KMD",
+  "KMD-BEP20",
+  "KNC-AVX20",
+  "KNC-BEP20",
+  "KNC-ERC20",
+  "KNC-PLG20",
+  "KOIN",
+  "KSM-BEP20",
+  "LABS",
+  "LBC",
+  "LBC-segwit",
+  "LCC",
+  "LCC-segwit",
+  "LDO-ERC20",
+  "LDO-PLG20",
+  "LEASH-ERC20",
+  "LEO-ERC20",
+  "LEO-PLG20",
+  "LINK-AVX20",
+  "LINK-BEP20",
+  "LINK-ERC20",
+  "LINK-FTM20",
+  "LINK-HCO20",
+  "LINK-KRC20",
+  "LINK-PLG20",
+  "LNC",
+  "LOOM-BEP20",
+  "LOOM-ERC20",
+  "LOOP-BEP20",
+  "LRC-BEP20",
+  "LRC-ERC20",
+  "LRC-PLG20",
+  "LSTR-QRC20",
+  "LSWAP-BEP20",
+  "LTC",
+  "LTC-segwit",
+  "LYNX",
+  "MANA-BEP20",
+  "MANA-ERC20",
+  "MANA-KRC20",
+  "MANA-PLG20",
+  "MARTY",
+  "MASK-BEP20",
+  "MASK-ERC20",
+  "MASK-PLG20",
+  "MATIC",
+  "MATIC-BEP20",
+  "MATIC-ERC20",
+  "MATIC-HCO20",
+  "MATIC-KRC20",
+  "MATICTEST",
+  "MAZE-SLP",
+  "MC-BEP20",
+  "MC-ERC20",
+  "MCL",
+  "MED-QRC20",
+  "MESH",
+  "MGW",
+  "MIL",
+  "MINDS-ERC20",
+  "MIR-BEP20",
+  "MIR-ERC20",
+  "MKR-AVX20",
+  "MKR-BEP20",
+  "MKR-ERC20",
+  "MKR-KRC20",
+  "MLN-ERC20",
+  "MM-AVX20",
+  "MM-BEP20",
+  "MM-ERC20",
+  "MM-MVR20",
+  "MM-PLG20",
+  "MONA",
+  "MONA-segwit",
+  "MORTY",
+  "MOVR",
+  "MSHARK",
+  "NAV",
+  "NAV-BEP20",
+  "NEAR-BEP20",
+  "NENG",
+  "NEXO-ERC20",
+  "NEXO-KRC20",
+  "NEXO-PLG20",
+  "NINJA",
+  "NMC",
+  "NMC-segwit",
+  "NVC",
+  "NVC-BEP20",
+  "NVC-QRC20",
+  "NYAN",
+  "NZDS-ERC20",
+  "NZDS-PLG20",
+  "OC-QRC20",
+  "OCEAN-BEP20",
+  "OCEAN-ERC20",
+  "OCEAN-PLG20",
+  "OKB-ERC20",
+  "OMG-ERC20",
+  "OMG-PLG20",
+  "ONE",
+  "ONT-BEP20",
+  "OSMO",
+  "PANGEA",
+  "PAX-BEP20",
+  "PAX-ERC20",
+  "PAX-KRC20",
+  "PAX-PLG20",
+  "PAXG-BEP20",
+  "PAXG-ERC20",
+  "PAXG-PLG20",
+  "PGX-PLG20",
+  "PND",
+  "PNK-ERC20",
+  "POT",
+  "POT-ERC20",
+  "POT-PLG20",
+  "POWR-ERC20",
+  "POWR-PLG20",
+  "PPC",
+  "PPC-ERC20",
+  "PPC-PLG20",
+  "PRCY-BEP20",
+  "PRCY-ERC20",
+  "PRCY-PLG20",
+  "PRUX",
+  "PSF-SLP",
+  "PUT-QRC20",
+  "QBT-QRC20",
+  "QC-QRC20",
+  "QI-QRC20",
+  "QIAIR-QRC20",
+  "QKC-BEP20",
+  "QKC-ERC20",
+  "QNT-ERC20",
+  "QNT-KRC20",
+  "QRC20",
+  "QTUM",
+  "QTUM-ERC20",
+  "QTUM-segwit",
+  "RBTC",
+  "RDD",
+  "REN-ERC20",
+  "REN-HCO20",
+  "REP-ERC20",
+  "REQ-ERC20",
+  "REQ-PLG20",
+  "REV-ERC20",
+  "REVS",
+  "RICK",
+  "RLC-ERC20",
+  "RLC-PLG20",
+  "RNDR-ERC20",
+  "RNDR-PLG20",
+  "RPL-ERC20",
+  "RSR-ERC20",
+  "RTM",
+  "RTM-BEP20",
+  "RUNES",
+  "RVN",
+  "S4F-BEP20",
+  "S4F-ERC20",
+  "SAND-BEP20",
+  "SAND-ERC20",
+  "SAND-PLG20",
+  "SBCH",
+  "SCRT-BEP20",
+  "SEELE-ERC20",
+  "SHIB-BEP20",
+  "SHIB-ERC20",
+  "SHIB-KRC20",
+  "SHR-BEP20",
+  "SHR-ERC20",
+  "SIBM-BEP20",
+  "SIGNA-BEP20",
+  "SKL-ERC20",
+  "SNT-ERC20",
+  "SNX-AVX20",
+  "SNX-BEP20",
+  "SNX-ERC20",
+  "SNX-FTM20",
+  "SNX-KRC20",
+  "SNX-PLG20",
+  "SOL-BEP20",
+  "SOL-PLG20",
+  "SOLVE-ERC20",
+  "SOUR-SLP",
+  "SPACE",
+  "SPICE-SLP",
+  "SRM-ERC20",
+  "SRM-PLG20",
+  "STFIRO-ERC20",
+  "STORJ-ERC20",
+  "SUPERNET",
+  "SUSHI-AVX20",
+  "SUSHI-BEP20",
+  "SUSHI-ERC20",
+  "SUSHI-FTM20",
+  "SUSHI-KRC20",
+  "SUSHI-MVR20",
+  "SUSHI-PLG20",
+  "SWAP-BEP20",
+  "SXP-BEP20",
+  "SXP-ERC20",
+  "SYS",
+  "SYS-segwit",
+  "TAMA-ERC20",
+  "TEL-ERC20",
+  "TEL-KRC20",
+  "TEL-PLG20",
+  "TFT-BEP20",
+  "THC",
+  "THC-BEP20",
+  "TKL",
+  "TON-BEP20",
+  "TON-ERC20",
+  "TRAC-ERC20",
+  "TRC",
+  "TRX-BEP20",
+  "TRX-BEP20_OLD",
+  "TRYB-AVX20",
+  "TRYB-BEP20",
+  "TRYB-ERC20",
+  "TRYB-PLG20",
+  "TSL-QRC20",
+  "TTT-SLP",
+  "TUSD-AVX20",
+  "TUSD-BEP20",
+  "TUSD-ERC20",
+  "TUSD-FTM20",
+  "TUSD-HCO20",
+  "TUSD-KRC20",
+  "TUSD-PLG20",
+  "TWT-BEP20",
+  "UBQ",
+  "UBT-ERC20",
+  "UBT-PLG20",
+  "UFO",
+  "UFO-segwit",
+  "UIS",
+  "UMA-AVX20",
+  "UMA-ERC20",
+  "UMA-PLG20",
+  "UNI-AVX20",
+  "UNI-BEP20",
+  "UNI-ERC20",
+  "UNI-HCO20",
+  "UNI-KRC20",
+  "UNI-PLG20",
+  "UNO",
+  "UOS-ERC20",
+  "UQC-ERC20",
+  "USBL",
+  "USDC-AVX20",
+  "USDC-AVX20_OLD",
+  "USDC-BEP20",
+  "USDC-ERC20",
+  "USDC-FTM20",
+  "USDC-HCO20",
+  "USDC-KRC20",
+  "USDC-MVR20",
+  "USDC-PLG20",
+  "USDD-BEP20",
+  "USDD-ERC20",
+  "USDF",
+  "USDT-ARB20",
+  "USDT-AVX20",
+  "USDT-AVX20_OLD",
+  "USDT-BEP20",
+  "USDT-ERC20",
+  "USDT-FTM20",
+  "USDT-HCO20",
+  "USDT-KRC20",
+  "USDT-MVR20",
+  "USDT-PLG20",
+  "USDT-SLP",
+  "UTK-ERC20",
+  "VAL",
+  "VET-BEP20",
+  "VGX-ERC20",
+  "VGX-PLG20",
+  "VIA",
+  "VIA-segwit",
+  "VITE-BEP20",
+  "VOTE2023",
+  "VPRM",
+  "VRA-ERC20",
+  "VRM",
+  "VRSC",
+  "VTC",
+  "VTC-segwit",
+  "WAVES-BEP20",
+  "WBTC-ERC20",
+  "WBTC-PLG20",
+  "WCN",
+  "WCN-segwit",
+  "WHIVE",
+  "WHIVE-segwit",
+  "WOO-AVX20",
+  "WOO-BEP20",
+  "WOO-ERC20",
+  "WOO-FTM20",
+  "WOO-PLG20",
+  "WWCN-ERC20",
+  "XCN-BEP20",
+  "XCN-ERC20",
+  "XEC",
+  "XEP-BEP20",
+  "XIDR-ERC20",
+  "XIDR-PLG20",
+  "XLM-BEP20",
+  "XMY",
+  "XMY-segwit",
+  "XOR-ERC20",
+  "XPM",
+  "XRG",
+  "XRP-BEP20",
+  "XRP-ERC20",
+  "XSGD-ERC20",
+  "XSGD-PLG20",
+  "XTZ-BEP20",
+  "XVC",
+  "XVC-BEP20",
+  "XVC-QRC20",
+  "XVG",
+  "XVS-BEP20",
+  "YFI-AVX20",
+  "YFI-BEP20",
+  "YFI-ERC20",
+  "YFI-FTM20",
+  "YFI-KRC20",
+  "YFI-PLG20",
+  "YFII-BEP20",
+  "YFII-ERC20",
+  "ZEC",
+  "ZER",
+  "ZER-BEP20",
+  "ZET",
+  "ZIL-BEP20",
+  "ZILLA",
+  "ZINU-BEP20",
+  "ZOMBIE",
+  "ZRX-AVX20",
+  "ZRX-ERC20",
+  "ZRX-PLG20",
+  "tBCH",
+  "tBLK",
+  "tBTC",
+  "tBTC-segwit",
+  "tQTUM",
+  "tQTUM-segwit"
+]
+-------
+Checking field: type
+Possible null values:
+0
+Possible enum values:
+[
+  "AVX-20",
+  "Arbitrum",
+  "BEP-20",
+  "ERC-20",
+  "Ethereum Classic",
+  "FTM-20",
+  "HRC-20",
+  "HecoChain",
+  "KRC-20",
+  "Matic",
+  "Moonbeam",
+  "Moonriver",
+  "QRC-20",
+  "QTUM",
+  "RSK Smart Bitcoin",
+  "SLP",
+  "Smart Chain",
+  "SmartBCH",
+  "TENDERMINT",
+  "TENDERMINTTOKEN",
+  "UTXO",
+  "Ubiq",
+  "ZHTLC"
+]
+-------
+Checking field: name
+Possible null values:
+0
+Possible enum values:
+[
+  "0x",
+  "1Inch",
+  "AAVE",
+  "ARPA Chain",
+  "Action Coin",
+  "AdEx",
+  "Ankr",
+  "ApeCoin",
+  "Aragon",
+  "ArtByte",
+  "Aryacoin",
+  "Atomic Wallet Coin",
+  "AtomicSLP",
+  "Augur",
+  "Auroracoin",
+  "Avalanche",
+  "Avalanche Testnet",
+  "Avian",
+  "Axe",
+  "Axie Infinity",
+  "BET",
+  "BIDR",
+  "BOTS",
+  "BTC Testnet",
+  "BTU Protocol",
+  "Baby Doge Coin",
+  "Balanced Dollar",
+  "Balancer",
+  "Banano",
+  "Bancor",
+  "Band Protocol",
+  "Basic Attention Token",
+  "BiLira",
+  "Binance Coin",
+  "Binance Coin Testnet",
+  "Binance USD",
+  "Binance USD (OLD)",
+  "BitCore",
+  "BitTorrent",
+  "BitTorrent (OLD)",
+  "Bitcoin",
+  "Bitcoin Cash",
+  "Bitcoin Cash Testnet",
+  "BitcoinZ",
+  "Bitnet",
+  "Bitpanda Ecosystem",
+  "Bitweb",
+  "BlackCoin",
+  "BlackCoin Testnet",
+  "Bolivarcoin",
+  "Bone ShibaSwap",
+  "Brazilian Digital Token",
+  "Bunkercoin",
+  "CAD Coin",
+  "Canada eCoin",
+  "Cardano",
+  "Case Token",
+  "Celer Network",
+  "Celsius",
+  "ChainZilla",
+  "Chainlink",
+  "Cheetahcoin",
+  "Chiliz",
+  "Chips",
+  "Civic",
+  "CoinCollect",
+  "Collider Coin",
+  "Compound",
+  "Conflux",
+  "Convex Finance",
+  "Cosmos",
+  "Cosmos IBC-IRIS",
+  "Crypto.com",
+  "Crypto777",
+  "CumRocket",
+  "Curve DAO Token",
+  "CyberVein",
+  "DEX",
+  "DFI.Money",
+  "DIAToken",
+  "DOC",
+  "DODO",
+  "Dai",
+  "Dash",
+  "Decentraland",
+  "Dent",
+  "DigiByte",
+  "Digibyte",
+  "DigitalPrice",
+  "Digitalcoin",
+  "Diminutive Coin",
+  "Doge Dash",
+  "Doge Killer",
+  "Dogecoin",
+  "Doggy",
+  "Doichain",
+  "DxChain",
+  "EOS",
+  "EUROe Stablecoin",
+  "Einsteinium",
+  "Electra",
+  "Electra Protocol",
+  "Elrond",
+  "Energo TSL",
+  "Enjin Coin",
+  "Enzyme",
+  "Ergon",
+  "Ethereum",
+  "Ethereum Classic",
+  "Evrmore Coin",
+  "FJCB Fujicoin",
+  "Fake USD",
+  "Fantom",
+  "Fantom Testnet",
+  "Feathercoin",
+  "Fei USD",
+  "Fetch.ai",
+  "Filecoin",
+  "Firo",
+  "FlexUSD",
+  "Floki Inu",
+  "Flow",
+  "Flux",
+  "Frax Share",
+  "Fujicoin",
+  "GM Wagmi",
+  "GMX",
+  "GRMS",
+  "Gains Network",
+  "Gala",
+  "Garlicoin",
+  "Gate",
+  "Gemini Dollar",
+  "Gifto",
+  "Gleec",
+  "GlobalBoost-Y",
+  "Gnosis",
+  "Golem",
+  "Green Satoshi Token",
+  "Groestlcoin",
+  "HEX",
+  "HODL",
+  "HUSD",
+  "HalalChain",
+  "Harmony",
+  "HempCoin",
+  "Holo",
+  "Huobi Token",
+  "HyperPay",
+  "INK",
+  "IOTA",
+  "Ilien",
+  "Ilien Fuel",
+  "Ilien Swap",
+  "Illuvium",
+  "ImmutableX",
+  "InfiniLooP",
+  "Injective Protocol",
+  "IoTeX",
+  "Iris",
+  "JPY Coin",
+  "JUMBLR",
+  "JUST",
+  "Jarvis Australian Dollar",
+  "Jarvis Brazilian Real",
+  "Jarvis British Pound",
+  "Jarvis Canadian Dollar",
+  "Jarvis Chinese Yuan",
+  "Jarvis Euro",
+  "Jarvis Gold",
+  "Jarvis Japanese Yen",
+  "Jarvis Mexican Peso",
+  "Jarvis New Zealand Dollar",
+  "Jarvis Philippine Peso",
+  "Jarvis Polish Zloty",
+  "Jarvis Reward Token",
+  "Jarvis Singapore Dollar",
+  "Jarvis South Korean Won",
+  "Jarvis Swedish Krona",
+  "Jarvis Swiss Franc",
+  "Jarvis Turkish Lira",
+  "Jarvis United States Dollar",
+  "Jeet Detector Bot",
+  "Joystick.club",
+  "KMD Labs",
+  "Kleros",
+  "Koinon",
+  "Komodo",
+  "KuCoin Token",
+  "Kusama",
+  "Kyber Network",
+  "LBRY Credits",
+  "LEO Token",
+  "Lido DAO",
+  "LightningCash",
+  "Litecoin",
+  "Litecoin Cash",
+  "Loom Network",
+  "LoopNetwork",
+  "LoopSwap",
+  "Loopring",
+  "Luna Stars",
+  "Lynx",
+  "MARTY",
+  "Maker",
+  "Marmara Credit Loops",
+  "Mask Network",
+  "Matic Testnet",
+  "Maze",
+  "Medibloc",
+  "Merit Circle",
+  "Milevium",
+  "MiliShark",
+  "Million",
+  "Minds",
+  "Mirror Protocol",
+  "MonaCoin",
+  "Moonbeam",
+  "Moonriver",
+  "Morty",
+  "MultiGateway",
+  "Myriad",
+  "NEAR Protocol",
+  "NZD Stablecoin",
+  "Namecoin",
+  "Navcoin",
+  "Nengcoin",
+  "Nexo",
+  "Ninja",
+  "Novacoin",
+  "Nyancoin",
+  "OKB",
+  "OMG Network",
+  "Ocean Protocol",
+  "OceanChain",
+  "Ontology",
+  "Onyxcoin",
+  "OriginTrail",
+  "Osmosis",
+  "PAX Gold",
+  "PRUX",
+  "PRivaCY Coin",
+  "PS Foundation",
+  "PancakeSwap",
+  "Pandacoin",
+  "Pangea Poker",
+  "Paxos Standard",
+  "Peercoin",
+  "Pegaxy Stone",
+  "Pirate",
+  "Polkadot",
+  "Polygon",
+  "PotCoin",
+  "Power Ledger",
+  "Primecoin",
+  "Profile Utility Token",
+  "QRC20",
+  "QTUM Testnet",
+  "Qbao",
+  "Qcash",
+  "Qi Airdrop Token",
+  "Qi Swap",
+  "Qtum",
+  "Quant",
+  "QuarkChain",
+  "REVS",
+  "RSK Smart Bitcoin",
+  "Raptoreum",
+  "RavenCoin",
+  "ReddCoin",
+  "Ren",
+  "Render",
+  "Request",
+  "Reserve Rights",
+  "Revain",
+  "Rick",
+  "Rocket Pool",
+  "Runebase",
+  "S4FE",
+  "SKALE",
+  "SOLVE",
+  "STASIS EURO",
+  "STEPN",
+  "SafeSwap",
+  "Scry.info",
+  "Secret",
+  "Seele",
+  "Serum",
+  "Share",
+  "Shiba Inu",
+  "SibMining",
+  "Signum",
+  "SingularityNET",
+  "SmartBCH",
+  "Solana",
+  "Sora",
+  "Sour",
+  "Spacecoin",
+  "Spice",
+  "StakedFIRO",
+  "Status",
+  "Stellar",
+  "Storj",
+  "StraitsX Indonesian Rupiah",
+  "StraitsX Singapore Dollar",
+  "SuperMESH",
+  "Supernet",
+  "Sushi",
+  "Swipe",
+  "SwissBorg",
+  "Synthetix",
+  "Syscoin",
+  "TRON",
+  "TRON (OLD)",
+  "Tamadoge",
+  "Telcoin",
+  "Terracoin",
+  "Tether",
+  "Tether (OLD)",
+  "Tezos",
+  "The Graph",
+  "The Sandbox",
+  "ThreeFold",
+  "Tokel",
+  "Toncoin",
+  "Travala.com",
+  "Trinity Trust Token",
+  "TrueUSD",
+  "Trust Wallet",
+  "UMA",
+  "USD Coin",
+  "USD Coin (OLD)",
+  "USDD",
+  "Ubiq",
+  "Ultra",
+  "Unibright",
+  "Uniform Fiscal Object",
+  "Uniswap",
+  "Unitus",
+  "Unobtanium",
+  "Uquid Coin",
+  "Utrust",
+  "VOTE2023",
+  "Validity",
+  "VanillaCash",
+  "Vaporum",
+  "VeChain",
+  "Venus",
+  "Verasity",
+  "Verge",
+  "Verium Reserve",
+  "Vertcoin",
+  "Verus Coin",
+  "Viacoin",
+  "Vite",
+  "Voyager",
+  "WOO Network",
+  "Waves",
+  "Whive",
+  "Widecoin",
+  "Wrapped Bitcoin",
+  "Wrapped Widecoin",
+  "XRP",
+  "Zcash",
+  "Zero",
+  "Zetacoin",
+  "Zilliqa",
+  "Zombie",
+  "Zombie Inu",
+  "aelf",
+  "agEUR",
+  "e-Gulden",
+  "eCash",
+  "eIlien",
+  "flexUSD",
+  "iExec RLC",
+  "tBitcoin",
+  "yearn.finance"
+]
+-------
+Checking field: coinpaprika_id
+Possible null values:
+0
+Possible enum values:
+[
+  "",
+  "1inch-1inch",
+  "aave-new",
+  "aby-artbyte",
+  "actn-action-coin",
+  "ada-cardano",
+  "adx-adex",
+  "ageur-ageur",
+  "agix-singularitynet",
+  "ankr-ankr-network",
+  "ant-aragon",
+  "ape-apecoin",
+  "arpa-arpa-chain",
+  "arrr-pirate",
+  "atom-cosmos",
+  "aur-auroracoin",
+  "ava-travala",
+  "avax-avalanche",
+  "avn-avian",
+  "awc-atomic-wallet-coin",
+  "axe-axe",
+  "axs-axie-infinity",
+  "aya-aryacoin",
+  "babydoge-baby-doge-coin",
+  "bal-balancer",
+  "ban-banano",
+  "band-band-protocol",
+  "bat-basic-attention-token",
+  "bch-bitcoin-cash",
+  "best-bitpanda-ecosystem-token",
+  "bidr-binanceidr",
+  "bit-bitnet",
+  "bkc-bunkercoin",
+  "blk-blackcoin",
+  "bnb-binance-coin",
+  "bnt-bancor",
+  "boli-bolivarcoin",
+  "bone-bone-shibaswap",
+  "brz-brazilian-digital-token",
+  "bsty-globalboost-y",
+  "btc-bitcoin",
+  "btcz-bitcoinz",
+  "bte-bitweb",
+  "btt-bittorrent",
+  "bttc-bittorrent-chain",
+  "btu-btu-protocol",
+  "btx-bitcore",
+  "busd-binance-usd",
+  "cadc-cad-coin",
+  "cake-pancakeswap",
+  "cdn-canada-ecoin",
+  "cel-celsius",
+  "celr-celer-network",
+  "cfx-conflux-network",
+  "chips-chips",
+  "chsb-swissborg",
+  "chta-cheetahcoin",
+  "chz-chiliz",
+  "clc-collider-coin",
+  "comp-compoundd",
+  "cro-cryptocom-chain",
+  "crv-curve-dao-token",
+  "cummies-cumrocket",
+  "cvc-civic",
+  "cvt-cybervein",
+  "cvx-convex-finance",
+  "dai-dai",
+  "dash-dash",
+  "ddd-scryinfo",
+  "dent-dent",
+  "dgb-digibyte",
+  "dgc-digitalcoin",
+  "dia-dia",
+  "dimi-diminutive-coin",
+  "dodo-dodo",
+  "doge-dogecoin",
+  "dogedash-doge-dash",
+  "doggy-doggy",
+  "doi-doichain",
+  "dot-polkadot",
+  "dp-digitalprice",
+  "dx-dxchain-token",
+  "eca-electra",
+  "efl-e-gulden",
+  "egld-elrond",
+  "eiln-e-ilien",
+  "elf-aelf",
+  "emc2-einsteinium",
+  "enj-enjin-coin",
+  "eos-eos",
+  "etc-ethereum-classic",
+  "eth-ethereum",
+  "ethos-ethos",
+  "euroe-euroe-stablecoin",
+  "eurs-stasis-eurs",
+  "evr-evrmore",
+  "fei-fei-protocol",
+  "fetch-ai",
+  "fil-filecoin",
+  "firo-firo",
+  "fjc-fujicoin",
+  "fjcb-fjcb-fujicoin",
+  "floki-floki-inu",
+  "flow-flow",
+  "ftc-feathercoin",
+  "ftm-fantom",
+  "fxs-frax-share",
+  "gala-gala",
+  "gleec-gleec-coin",
+  "glm-golem",
+  "glmr-moonbeam",
+  "gm-wagmi-gm-wagmi",
+  "gmx-gmx",
+  "gno-gnosis",
+  "gns-gains-network",
+  "grlc-garlicoin",
+  "grms-grms",
+  "grs-groestlcoin",
+  "grt-the-graph",
+  "gst-gst",
+  "gt-gatechain-token",
+  "gto-gifto",
+  "gusd-gemini-dollar",
+  "hex-hex",
+  "hlc-halalchain",
+  "hot-holo",
+  "hpy-hyper-pay",
+  "ht-huobi-token",
+  "husd-husd",
+  "il8p-infiniloop",
+  "iln-ilien9195",
+  "ilv-illuvium",
+  "imx-immutable-x",
+  "inj-injective-protocol",
+  "ink-ink",
+  "iotx-iotex",
+  "iris-irisnet",
+  "jdb-jeet-detector-bot",
+  "jjpy-jarvis-synthetic-japanese-yen",
+  "jpyc-jpy-coin-v2",
+  "jrt-jarvis-reward-token",
+  "jst-just",
+  "kcs-kucoin-token",
+  "kmd-komodo",
+  "knc-kyber-network",
+  "koin-koinon",
+  "ksm-kusama",
+  "lbc-lbry-credits",
+  "lcc-litecoin-cash",
+  "ldo-lido-dao",
+  "leash-doge-killer",
+  "leo-leo-token",
+  "link-chainlink",
+  "loom-loom-network",
+  "loop-loopnetwork",
+  "lrc-loopring",
+  "lstr-luna-stars",
+  "lswap-loopswap",
+  "ltc-litecoin",
+  "ltncg-lightningcash-gold",
+  "lynx-lynx",
+  "mana-decentraland",
+  "mask-mask-network",
+  "matic-matic-network",
+  "mc-merit-circle",
+  "mcl-marmara-credit-loops",
+  "med-medibloc-qrc20",
+  "minds-minds",
+  "miota-iota",
+  "mir-mirror-protocol",
+  "mkr-maker",
+  "mln-melon",
+  "mm-million",
+  "mona-monacoin",
+  "movr-moonriver",
+  "nav-navcoin",
+  "near-near-protocol",
+  "neng-nengcoin",
+  "nexo-nexo",
+  "nmc-namecoin",
+  "nvc-novacoin",
+  "nyan-nyancoin",
+  "oc-oceanchain",
+  "ocean-ocean-protocol",
+  "okb-okb",
+  "omg-omg-network",
+  "one-harmony",
+  "ont-ontology",
+  "osmo-osmosis",
+  "pax-paxos-standard-token",
+  "paxg-pax-gold",
+  "pnd-pandacoin",
+  "pnk-kleros",
+  "pot-potcoin",
+  "powr-power-ledger",
+  "ppc-peercoin",
+  "prcy-privacy-coin",
+  "prux-prux-coin",
+  "put-profile-utility-token",
+  "qbt-qbao",
+  "qc-qcash",
+  "qi-qiswap",
+  "qkc-quarkchain",
+  "qnt-quant",
+  "qtum-qtum",
+  "rbtc-smart-bitcoin",
+  "rdd-reddcoin",
+  "ren-republic-protocol",
+  "rep-augur",
+  "req-request-network",
+  "rev-revain",
+  "rlc-iexec-rlc",
+  "rndr-render-token",
+  "rpl-rocket-pool",
+  "rsr-reserve-rights",
+  "rtm-raptoreum",
+  "runes-runebase",
+  "rvn-ravencoin",
+  "s4f-s4fe",
+  "sand-the-sandbox",
+  "scrt-secret",
+  "seele-seele",
+  "shib-shiba-inu",
+  "shr-sharetoken",
+  "signa-signa",
+  "skl-skale",
+  "snt-status",
+  "snx-synthetix-network-token",
+  "sol-solana",
+  "solve-solve",
+  "space-spacecoin7367",
+  "spice-spice",
+  "srm-serum",
+  "storj-storj",
+  "sushi-sushi",
+  "swap-safeswap-online",
+  "sxp-swipe",
+  "sys-syscoin",
+  "tel-telcoin",
+  "tft-threefold-token",
+  "thc-hempcoin",
+  "tkl-tokel",
+  "toncoin-the-open-network",
+  "trac-origintrail",
+  "trc-terracoin",
+  "trx-tron",
+  "tryb-bilira",
+  "tsl-energo",
+  "tusd-trueusd",
+  "twt-trust-wallet-token",
+  "ubq-ubiq",
+  "ubt-unibright",
+  "ufo-uniform-fiscal-object",
+  "uis-unitus",
+  "uma-uma",
+  "uni-uniswap",
+  "unity-supernet",
+  "uno-unobtanium",
+  "uos-ultra",
+  "uqc-uquid-coin",
+  "usdc-usd-coin",
+  "usdd-usdd",
+  "usdt-tether",
+  "utk-utrust",
+  "val-validity",
+  "vet-vechain",
+  "via-viacoin",
+  "vite-vite",
+  "vprm-vaporum-coin",
+  "vra-verasity",
+  "vrm-veriumreserve",
+  "vrsc-verus-coin",
+  "vtc-vertcoin",
+  "waves-waves",
+  "wbtc-wrapped-bitcoin",
+  "wcn-widecoin",
+  "whive-the-whive-protocol",
+  "woo-wootrade",
+  "wwcn-wrapped-widecoin",
+  "xcn-chain",
+  "xec-ecash",
+  "xep-electra-protocol",
+  "xidr-straitsx-indonesia-rupiah",
+  "xlm-stellar",
+  "xmy-myriad",
+  "xor-sora",
+  "xpm-primecoin",
+  "xrg-ergon",
+  "xrp-xrp",
+  "xsgd-xsgd",
+  "xtz-tezos",
+  "xvc-vcash",
+  "xvg-verge",
+  "xvs-venus",
+  "yfi-yearnfinance",
+  "yfii-dfimoney",
+  "zec-zcash",
+  "zel-zelcash",
+  "zer-zero",
+  "zet-zetacoin",
+  "zil-zilliqa",
+  "zilla-chainzilla",
+  "zombie-inu",
+  "zrx-0x"
+]
+-------
+Checking field: coingecko_id
+Possible null values:
+0
+Possible enum values:
+[
+  "",
+  "0x",
+  "1inch",
+  "aave",
+  "action-coin",
+  "adex",
+  "aelf",
+  "ageur",
+  "ankr",
+  "apecoin",
+  "aragon",
+  "arpa",
+  "artbyte",
+  "aryacoin",
+  "atomic-wallet-coin",
+  "augur",
+  "auroracoin",
+  "avalanche-2",
+  "avian-network",
+  "axe",
+  "axie-infinity",
+  "baby-doge-coin",
+  "balancer",
+  "banano",
+  "bancor",
+  "band-protocol",
+  "basic-attention-token",
+  "bilira",
+  "binance-usd",
+  "binancecoin",
+  "binanceidr",
+  "bitcoin",
+  "bitcoin-cash",
+  "bitcoinz",
+  "bitcore",
+  "bitpanda-ecosystem-token",
+  "bittorrent",
+  "bittorrent-old",
+  "bitweb",
+  "blackcoin",
+  "bolivarcoin",
+  "bone-shibaswap",
+  "brz",
+  "btu-protocol",
+  "cad-coin",
+  "cardano",
+  "celer-network",
+  "celsius-degree-token",
+  "chain-2",
+  "chainlink",
+  "chiliz",
+  "civic",
+  "compound-governance-token",
+  "concierge-io",
+  "conflux-token",
+  "convex-finance",
+  "cosmos",
+  "cosmos-hub",
+  "crypto-com-chain",
+  "cumrocket",
+  "curve-dao-token",
+  "cybervein",
+  "dai",
+  "dash",
+  "decentraland",
+  "dent",
+  "dia-data",
+  "digibyte",
+  "digitalcoin",
+  "digitalprice",
+  "diminutive-coin",
+  "dodo",
+  "doge-dash",
+  "dogecoin",
+  "doggy",
+  "doichain",
+  "dxchain",
+  "ecash",
+  "einsteinium",
+  "electra",
+  "electra-protocol",
+  "electronicgulden",
+  "elrond-erd-2",
+  "energo",
+  "enjincoin",
+  "eos",
+  "ethereum",
+  "ethereum-classic",
+  "ethos",
+  "euroe-stablecoin",
+  "fantom",
+  "feathercoin",
+  "fei-usd",
+  "fetch-ai",
+  "filecoin",
+  "flex-usd",
+  "floki",
+  "flow",
+  "frax-share",
+  "fujicoin",
+  "gains-network",
+  "gala",
+  "garlicoin",
+  "gatechain-token",
+  "gemini-dollar",
+  "gifto",
+  "gleec-coin",
+  "globalboost",
+  "gm",
+  "gmx",
+  "gnosis",
+  "golem",
+  "green-satoshi-token",
+  "groestlcoin",
+  "halalchain",
+  "harmony",
+  "havven",
+  "hempcoin-thc",
+  "hex",
+  "holotoken",
+  "huobi-token",
+  "husd",
+  "hyper-pay",
+  "iexec-rlc",
+  "illuvium",
+  "immutable-x",
+  "injective-protocol",
+  "ink",
+  "iota",
+  "iotex",
+  "iris-network",
+  "jarvis-reward-token",
+  "jarvis-synthetic-british-pound",
+  "jarvis-synthetic-euro",
+  "jarvis-synthetic-japanese-yen",
+  "jarvis-synthetic-swiss-franc",
+  "jeet-detector-bot",
+  "joystick-club",
+  "jpy-coin",
+  "just",
+  "kleros",
+  "koinon",
+  "komodo",
+  "kucoin-shares",
+  "kusama",
+  "kyber-network-crystal",
+  "lbry-credits",
+  "leash",
+  "leo-token",
+  "lido-dao",
+  "lightningcash-gold",
+  "litecoin",
+  "litecoin-cash",
+  "loom-network-new",
+  "loopnetwork",
+  "loopring",
+  "loopswap",
+  "lynx",
+  "maker",
+  "mask-network",
+  "matic-network",
+  "medibloc",
+  "meetluna",
+  "melon",
+  "merit-circle",
+  "million",
+  "minds",
+  "mirror-protocol",
+  "monacoin",
+  "moonbeam",
+  "moonriver",
+  "myriadcoin",
+  "namecoin",
+  "nav-coin",
+  "near",
+  "nexo",
+  "novacoin",
+  "nyancoin",
+  "nzd-stablecoin",
+  "ocean-protocol",
+  "oceanchain",
+  "okb",
+  "omisego",
+  "ontology",
+  "origintrail",
+  "osmosis",
+  "pancakeswap-token",
+  "pandacoin",
+  "pax-gold",
+  "paxos-standard",
+  "peercoin",
+  "pegaxy-stone",
+  "pirate-chain",
+  "polkadot",
+  "potcoin",
+  "power-ledger",
+  "primecoin",
+  "privacy-coin",
+  "profile-utility-token",
+  "qbao",
+  "qcash",
+  "qiswap",
+  "qtum",
+  "quant-network",
+  "quark-chain",
+  "radium",
+  "raptoreum",
+  "ravencoin",
+  "reddcoin",
+  "render-token",
+  "republic-protocol",
+  "request-network",
+  "reserve-rights-token",
+  "revain",
+  "ripple",
+  "rocket-pool",
+  "rootstock",
+  "runebase",
+  "s4fe",
+  "safeswap-online",
+  "scry-info",
+  "secret",
+  "seele",
+  "serum",
+  "sharering",
+  "shiba-inu",
+  "signum",
+  "singularitynet",
+  "skale",
+  "solana",
+  "solve-care",
+  "sora",
+  "spice",
+  "stakehound",
+  "stasis-eurs",
+  "status",
+  "stellar",
+  "stepn",
+  "storj",
+  "straitsx-indonesia-rupiah",
+  "sushi",
+  "swipe",
+  "swissborg",
+  "syscoin",
+  "telcoin",
+  "terracoin",
+  "tether",
+  "tezos",
+  "the-graph",
+  "the-open-network",
+  "the-sandbox",
+  "threefold-token",
+  "tokel",
+  "tron",
+  "true-usd",
+  "trust-wallet-token",
+  "ubiq",
+  "ufocoin",
+  "ultra",
+  "uma",
+  "unibright",
+  "uniswap",
+  "unitus",
+  "unobtanium",
+  "uquid-coin",
+  "usd-coin",
+  "usdd",
+  "utrust",
+  "vaporum-coin",
+  "vcash",
+  "vechain",
+  "venus",
+  "verasity",
+  "verge",
+  "vertcoin",
+  "verus-coin",
+  "viacoin",
+  "vite",
+  "waves",
+  "whive",
+  "widecoin",
+  "woo-network",
+  "wrapped-bitcoin",
+  "wrapped-widecoin",
+  "xsgd",
+  "yearn-finance",
+  "yfii-finance",
+  "zcash",
+  "zcoin",
+  "zelcash",
+  "zero",
+  "zetacoin",
+  "zilliqa",
+  "zinu-zombie-inu"
+]
+-------
+Checking field: livecoinwatch_id
+Possible null values:
+0
+Possible enum values:
+[
+  "",
+  "1INCH",
+  "AAVE",
+  "ABY",
+  "ACTN",
+  "ADA",
+  "ADX",
+  "AGIX",
+  "ANKR",
+  "ANT",
+  "APE",
+  "ARPA",
+  "ARRR",
+  "ATOM",
+  "AUD",
+  "AUR",
+  "AVA",
+  "AVAX",
+  "AWC",
+  "AXE",
+  "AXS",
+  "AYA",
+  "BABYDOGE",
+  "BAL",
+  "BAN",
+  "BAND",
+  "BAT",
+  "BCH",
+  "BEST",
+  "BIDR",
+  "BLK",
+  "BNB",
+  "BNT",
+  "BOLI",
+  "BRL",
+  "BRZ",
+  "BTC",
+  "BTCZ",
+  "BTT",
+  "BTU",
+  "BTX",
+  "BUSD",
+  "CAD",
+  "CAKE",
+  "CDN",
+  "CEL",
+  "CELR",
+  "CFX",
+  "CHF",
+  "CHSB",
+  "CHTA",
+  "CHZ",
+  "CNY",
+  "COMP",
+  "CRO",
+  "CRV",
+  "CUMMIES",
+  "CVC",
+  "CVT",
+  "CVX",
+  "DAI",
+  "DASH",
+  "DDD",
+  "DENT",
+  "DGB",
+  "DGC",
+  "DIA",
+  "DIMI",
+  "DODO",
+  "DOGE",
+  "DOGEDASH",
+  "DOI",
+  "DOT",
+  "DP",
+  "DX",
+  "ECA",
+  "EFL",
+  "EGLD",
+  "ELF",
+  "EMC2",
+  "ENJ",
+  "EOS",
+  "ETC",
+  "ETH",
+  "EUROE",
+  "EURS",
+  "FEI",
+  "FET",
+  "FIL",
+  "FIRO",
+  "FJC",
+  "FLEXUSD",
+  "FLOW",
+  "FTC",
+  "FTM",
+  "FXS",
+  "GALA",
+  "GBP",
+  "GLEEC",
+  "GLM",
+  "GLMR",
+  "GNO",
+  "GNS",
+  "GRLC",
+  "GRS",
+  "GRT",
+  "GT",
+  "GUSD",
+  "HEX",
+  "HLC",
+  "HPY",
+  "HT",
+  "HUSD",
+  "ILN",
+  "ILV",
+  "INJ",
+  "INK",
+  "IOTX",
+  "IRIS",
+  "JDB",
+  "JEUR",
+  "JOY",
+  "JPY",
+  "JPYC",
+  "JRT",
+  "JST",
+  "KCS",
+  "KMD",
+  "KNC",
+  "KRW",
+  "KSM",
+  "LBC",
+  "LCC",
+  "LDO",
+  "LEASH",
+  "LEO",
+  "LINK",
+  "LOOM",
+  "LRC",
+  "LSWAP",
+  "LTC",
+  "LYNX",
+  "MANA",
+  "MATIC",
+  "MED",
+  "MINDS",
+  "MIOTA",
+  "MIR",
+  "MKR",
+  "MLN",
+  "MONA",
+  "MOVR",
+  "MXN",
+  "NAV",
+  "NEAR",
+  "NENG",
+  "NEXO",
+  "NMC",
+  "NVC",
+  "NZD",
+  "OC",
+  "OCEAN",
+  "OKB",
+  "OMG",
+  "ONE",
+  "ONT",
+  "OSMO",
+  "PAXG",
+  "PGX",
+  "PHP",
+  "PLN",
+  "PND",
+  "PNK",
+  "POWR",
+  "PPC",
+  "PRCY",
+  "QBT",
+  "QC",
+  "QI",
+  "QKC",
+  "QNT",
+  "QTUM",
+  "RBTC",
+  "RDD",
+  "REN",
+  "REP",
+  "REQ",
+  "REV",
+  "RLC",
+  "RNDR",
+  "RPL",
+  "RSR",
+  "RTM",
+  "RVN",
+  "S4F",
+  "SAND",
+  "SCRT",
+  "SEELE",
+  "SEK",
+  "SGD",
+  "SHIB",
+  "SHR",
+  "SIGNA",
+  "SKL",
+  "SNT",
+  "SNX",
+  "SOL",
+  "SOLVE",
+  "SRM",
+  "STORJ",
+  "SUSHI",
+  "SXP",
+  "SYS",
+  "TEL",
+  "THC",
+  "TKL",
+  "TONCOIN",
+  "TRAC",
+  "TRC",
+  "TRX",
+  "TRY",
+  "TRYB",
+  "TSL",
+  "TUSD",
+  "TWT",
+  "UBQ",
+  "UBT",
+  "UFO",
+  "UIS",
+  "UMA",
+  "UNI",
+  "UNO",
+  "UOS",
+  "UQC",
+  "USD",
+  "USDC",
+  "USDD",
+  "USDP",
+  "USDT",
+  "UTK",
+  "VET",
+  "VGX",
+  "VIA",
+  "VITE",
+  "VPRM",
+  "VRA",
+  "VRM",
+  "VRSC",
+  "VTC",
+  "WAVES",
+  "WBTC",
+  "WHIVE",
+  "WOO",
+  "XAU",
+  "XCN",
+  "XEC",
+  "XEP",
+  "XIDR",
+  "XLM",
+  "XMY",
+  "XOR",
+  "XPM",
+  "XRG",
+  "XRP",
+  "XSGD",
+  "XTZ",
+  "XVG",
+  "XVS",
+  "YFI",
+  "YFII",
+  "ZEC",
+  "ZER",
+  "ZET",
+  "ZIL",
+  "ZINU",
+  "ZRX",
+  "_AVN",
+  "_BTE",
+  "_DOGGY",
+  "_EVR",
+  "_FLOKI",
+  "_FLUX",
+  "_GM",
+  "_HOT",
+  "_IMX",
+  "_LOOP",
+  "_MASK",
+  "_MC",
+  "_MCL",
+  "_MM",
+  "_POT",
+  "_SWAP",
+  "_TFT",
+  "__CHIPS",
+  "__GMX",
+  "__NYAN",
+  "__TAMA",
+  "__VAL",
+  "___BONE",
+  "____GFT",
+  "____GMT",
+  "____GST",
+  "________BIT"
+]
+-------
+Checking field: explorer_url
+Possible null values:
+0
+Possible enum values:
+[
+  "http://chtaexplorer.mooo.com:3002/",
+  "http://explorer.vaporumcoin.us/",
+  "http://nengexplorer.mooo.com:3001/",
+  "https://arbiscan.io/",
+  "https://axe-explorer.arcpool.com/",
+  "https://bet.kmdexplorer.io/",
+  "https://bitexplorer.io/",
+  "https://bkcexplorer.bunker.mt/",
+  "https://block.koinon.cloud/",
+  "https://blockbook.electrum-mona.org/",
+  "https://blockchair.com/bitcoin-cash/",
+  "https://blockchair.com/bitcoin/",
+  "https://blockchair.com/dash/",
+  "https://blockchair.com/ecash/",
+  "https://blockchair.com/litecoin/",
+  "https://blockchair.com/zcash/",
+  "https://blockscout.com/etc/mainnet/",
+  "https://blockstream.info/testnet/",
+  "https://bots.kmdexplorer.io/",
+  "https://bscscan.com/",
+  "https://cchain.explorer.avax-test.network/",
+  "https://cchain.explorer.avax.network/",
+  "https://ccl.kmdexplorer.io/",
+  "https://chainz.cryptoid.info/aby/",
+  "https://chainz.cryptoid.info/aur/",
+  "https://chainz.cryptoid.info/blk/",
+  "https://chainz.cryptoid.info/boli/",
+  "https://chainz.cryptoid.info/btx/",
+  "https://chainz.cryptoid.info/cdn/",
+  "https://chainz.cryptoid.info/dgc/",
+  "https://chainz.cryptoid.info/efl/",
+  "https://chainz.cryptoid.info/emc2/",
+  "https://chainz.cryptoid.info/il8p/",
+  "https://chainz.cryptoid.info/lcc/",
+  "https://chainz.cryptoid.info/lynx/",
+  "https://chainz.cryptoid.info/mil/",
+  "https://chainz.cryptoid.info/pnd/",
+  "https://chainz.cryptoid.info/pot/",
+  "https://chainz.cryptoid.info/ppc/",
+  "https://chainz.cryptoid.info/sys/",
+  "https://chainz.cryptoid.info/trc/",
+  "https://chainz.cryptoid.info/ufo/",
+  "https://chainz.cryptoid.info/uno/",
+  "https://chainz.cryptoid.info/val/",
+  "https://chainz.cryptoid.info/vtc/",
+  "https://chainz.cryptoid.info/xmy/",
+  "https://chainz.cryptoid.info/xvc/",
+  "https://chainz.cryptoid.info/zet/",
+  "https://clc.explorer.dexstats.info/",
+  "https://crypto.kmdexplorer.io/",
+  "https://dex.kmdexplorer.io/",
+  "https://digiexplorer.info/",
+  "https://doc.dragonhound.info/",
+  "https://dogechain.info/",
+  "https://dp.explorer.dexstats.info/",
+  "https://eca.ccore.online/",
+  "https://etherscan.io/",
+  "https://evr.cryptoscope.io/",
+  "https://exp.actioncoin.com/",
+  "https://explorer-us.avn.network/",
+  "https://explorer-vrm.vericonomy.com/",
+  "https://explorer.aryacoin.io/",
+  "https://explorer.bitwebcore.net/",
+  "https://explorer.blackcoin.nl/",
+  "https://explorer.btcz.rocks/",
+  "https://explorer.chips.cash/",
+  "https://explorer.diminutivecoin.com/",
+  "https://explorer.doichain.org/",
+  "https://explorer.ergon.network/",
+  "https://explorer.feathercoin.com/",
+  "https://explorer.firo.org/",
+  "https://explorer.fujicoin.org/",
+  "https://explorer.grms.pw/",
+  "https://explorer.harmony.one/",
+  "https://explorer.ilien.io/",
+  "https://explorer.kcc.io/en/",
+  "https://explorer.lbry.com/",
+  "https://explorer.lightningcash-coin.com/",
+  "https://explorer.marmara.io/",
+  "https://explorer.novaco.in/",
+  "https://explorer.prux.info/",
+  "https://explorer.qtum.org/",
+  "https://explorer.raptoreum.com/",
+  "https://explorer.rsk.co",
+  "https://explorer.runebase.io/",
+  "https://explorer.runonflux.io/",
+  "https://explorer.spaceworks.co/",
+  "https://explorer.tokel.io/",
+  "https://explorer.unitus.network/",
+  "https://explorer.verus.io/",
+  "https://explorer.viacoin.org/",
+  "https://explorer.widecoin.org/",
+  "https://ftmscan.com/",
+  "https://garlicblocks.com/",
+  "https://gleec.explorer.dexstats.info/",
+  "https://groestlsight.groestlcoin.org/",
+  "https://hecoinfo.com/",
+  "https://hodl.kmdexplorer.io/",
+  "https://insight.globalboost.info/",
+  "https://insight.zerocurrency.io/insight/",
+  "https://irishub.iobscan.io/",
+  "https://jumblr.kmdexplorer.io/",
+  "https://kmdexplorer.io/",
+  "https://labs.explorer.dexstats.info/",
+  "https://live.reddcoin.com/",
+  "https://marty.dragonhound.info/",
+  "https://mesh.kmdexplorer.io/",
+  "https://mgw.kmdexplorer.io/",
+  "https://moonriver.moonscan.io/",
+  "https://moonscan.io/",
+  "https://morty.explorer.dexstats.info/",
+  "https://mshark.kmdexplorer.io/",
+  "https://mumbai.polygonscan.com/",
+  "https://ninja.kmdexplorer.io/",
+  "https://nmc.tokenview.com/en/",
+  "https://pangea.kmdexplorer.io/",
+  "https://pirate.explorer.dexstats.info/",
+  "https://polygonscan.com/",
+  "https://ravencoin.network/",
+  "https://revs.kmdexplorer.io/",
+  "https://rick.explorer.dexstats.info/",
+  "https://simpleledger.info/",
+  "https://softbalanced.com:3001/insight/",
+  "https://supernet.kmdexplorer.io/",
+  "https://tbch.loping.net/",
+  "https://testnet.bscscan.com/",
+  "https://testnet.ftmscan.com/",
+  "https://testnet.qtum.info/",
+  "https://testnet.simpleledger.info/",
+  "https://thc.explorer.dexstats.info/",
+  "https://ubiqscan.io/",
+  "https://vote2023.dragonhound.info/",
+  "https://whiveexplorer.cointest.com/",
+  "https://www.blockseek.io/xpm/",
+  "https://www.mintscan.io/cosmos/",
+  "https://www.mintscan.io/osmosis/",
+  "https://www.navexplorer.com/",
+  "https://www.nyanchain.com/",
+  "https://www.smartscan.cash/",
+  "https://xvgblockexplorer.com/",
+  "https://zilla.kmdexplorer.io/",
+  "https://zombie.explorer.lordofthechains.com/"
+]
+-------
+Checking field: explorer_tx_url
+Possible null values:
+0
+Possible enum values:
+[
+  "",
+  "#/txs/",
+  "transaction/",
+  "tx.dws?",
+  "tx.nyan?",
+  "tx/",
+  "tx/?txid=",
+  "txs/"
+]
+-------
+Checking field: explorer_address_url
+Possible null values:
+0
+Possible enum values:
+[
+  "",
+  "#/address/",
+  "account/",
+  "ad.nyan?",
+  "address.dws?",
+  "address/",
+  "address/?address="
+]
+-------
+Checking field: supported
+Possible null values:
+0
+Possible enum values:
+[
+  []
+]
+-------
+Checking field: active
+Possible null values:
+0
+Possible enum values:
+[
+  false
+]
+-------
+Checking field: is_testnet
+Possible null values:
+0
+Possible enum values:
+[
+  false,
+  true
+]
+-------
+Checking field: currently_enabled
+Possible null values:
+0
+Possible enum values:
+[
+  false
+]
+-------
+Checking field: wallet_only
+Possible null values:
+0
+Possible enum values:
+[
+  false,
+  true
+]
+-------
+Checking field: fname
+Possible null values:
+0
+Possible enum values:
+[
+  "0x",
+  "1Inch",
+  "AAVE",
+  "ARPA Chain",
+  "Action Coin",
+  "AdEx",
+  "Ankr",
+  "ApeCoin",
+  "Aragon",
+  "ArtByte",
+  "Aryacoin",
+  "Atomic Wallet Coin",
+  "AtomicSLP",
+  "Augur",
+  "Auroracoin",
+  "Avalanche",
+  "Avalanche Testnet",
+  "Avian",
+  "Axe",
+  "Axie Infinity",
+  "BET",
+  "BIDR",
+  "BOTS",
+  "BTC Testnet",
+  "BTU Protocol",
+  "Baby Doge Coin",
+  "Balanced Dollar",
+  "Balancer",
+  "Banano",
+  "Bancor",
+  "Band Protocol",
+  "Basic Attention Token",
+  "BiLira",
+  "Binance Coin",
+  "Binance Coin Testnet",
+  "Binance USD",
+  "Binance USD (OLD)",
+  "BitCore",
+  "BitTorrent",
+  "BitTorrent (OLD)",
+  "Bitcoin",
+  "Bitcoin Cash",
+  "Bitcoin Cash Testnet",
+  "BitcoinZ",
+  "Bitnet",
+  "Bitpanda Ecosystem",
+  "Bitweb",
+  "BlackCoin",
+  "BlackCoin Testnet",
+  "Bolivarcoin",
+  "Bone ShibaSwap",
+  "Brazilian Digital Token",
+  "Bunkercoin",
+  "CAD Coin",
+  "Canada eCoin",
+  "Cardano",
+  "Case Token",
+  "Celer Network",
+  "Celsius",
+  "ChainZilla",
+  "Chainlink",
+  "Cheetahcoin",
+  "Chiliz",
+  "Chips",
+  "Civic",
+  "CoinCollect",
+  "Collider Coin",
+  "Compound",
+  "Conflux",
+  "Convex Finance",
+  "Cosmos",
+  "Cosmos IBC-IRIS",
+  "Crypto.com",
+  "Crypto777",
+  "CumRocket",
+  "Curve DAO Token",
+  "CyberVein",
+  "DEX",
+  "DFI.Money",
+  "DIAToken",
+  "DOC",
+  "DODO",
+  "Dai",
+  "Dash",
+  "Decentraland",
+  "Dent",
+  "DigiByte",
+  "Digibyte",
+  "DigitalPrice",
+  "Digitalcoin",
+  "Diminutive Coin",
+  "Doge Dash",
+  "Doge Killer",
+  "Dogecoin",
+  "Doggy",
+  "Doichain",
+  "DxChain",
+  "EOS",
+  "EUROe Stablecoin",
+  "Einsteinium",
+  "Electra",
+  "Electra Protocol",
+  "Elrond",
+  "Energo TSL",
+  "Enjin Coin",
+  "Enzyme",
+  "Ergon",
+  "Ethereum",
+  "Ethereum Classic",
+  "Evrmore Coin",
+  "FJCB Fujicoin",
+  "Fake USD",
+  "Fantom",
+  "Fantom Testnet",
+  "Feathercoin",
+  "Fei USD",
+  "Fetch.ai",
+  "Filecoin",
+  "Firo",
+  "FlexUSD",
+  "Floki Inu",
+  "Flow",
+  "Flux",
+  "Frax Share",
+  "Fujicoin",
+  "GM Wagmi",
+  "GMX",
+  "GRMS",
+  "Gains Network",
+  "Gala",
+  "Garlicoin",
+  "Gate",
+  "Gemini Dollar",
+  "Gifto",
+  "Gleec",
+  "GlobalBoost-Y",
+  "Gnosis",
+  "Golem",
+  "Green Satoshi Token",
+  "Groestlcoin",
+  "HEX",
+  "HODL",
+  "HUSD",
+  "HalalChain",
+  "Harmony",
+  "HempCoin",
+  "Holo",
+  "Huobi Token",
+  "HyperPay",
+  "INK",
+  "IOTA",
+  "Ilien",
+  "Ilien Fuel",
+  "Ilien Swap",
+  "Illuvium",
+  "ImmutableX",
+  "InfiniLooP",
+  "Injective Protocol",
+  "IoTeX",
+  "Iris",
+  "JPY Coin",
+  "JUMBLR",
+  "JUST",
+  "Jarvis Australian Dollar",
+  "Jarvis Brazilian Real",
+  "Jarvis British Pound",
+  "Jarvis Canadian Dollar",
+  "Jarvis Chinese Yuan",
+  "Jarvis Euro",
+  "Jarvis Gold",
+  "Jarvis Japanese Yen",
+  "Jarvis Mexican Peso",
+  "Jarvis New Zealand Dollar",
+  "Jarvis Philippine Peso",
+  "Jarvis Polish Zloty",
+  "Jarvis Reward Token",
+  "Jarvis Singapore Dollar",
+  "Jarvis South Korean Won",
+  "Jarvis Swedish Krona",
+  "Jarvis Swiss Franc",
+  "Jarvis Turkish Lira",
+  "Jarvis United States Dollar",
+  "Jeet Detector Bot",
+  "Joystick.club",
+  "KMD Labs",
+  "Kleros",
+  "Koinon",
+  "Komodo",
+  "KuCoin Token",
+  "Kusama",
+  "Kyber Network",
+  "LBRY Credits",
+  "LEO Token",
+  "Lido DAO",
+  "LightningCash",
+  "Litecoin",
+  "Litecoin Cash",
+  "Loom Network",
+  "LoopNetwork",
+  "LoopSwap",
+  "Loopring",
+  "Luna Stars",
+  "Lynx",
+  "MARTY",
+  "Maker",
+  "Marmara Credit Loops",
+  "Mask Network",
+  "Matic Testnet",
+  "Maze",
+  "Medibloc",
+  "Merit Circle",
+  "Milevium",
+  "MiliShark",
+  "Million",
+  "Minds",
+  "Mirror Protocol",
+  "MonaCoin",
+  "Moonbeam",
+  "Moonriver",
+  "Morty",
+  "MultiGateway",
+  "Myriad",
+  "NEAR Protocol",
+  "NZD Stablecoin",
+  "Namecoin",
+  "Navcoin",
+  "Nengcoin",
+  "Nexo",
+  "Ninja",
+  "Novacoin",
+  "Nyancoin",
+  "OKB",
+  "OMG Network",
+  "Ocean Protocol",
+  "OceanChain",
+  "Ontology",
+  "Onyxcoin",
+  "OriginTrail",
+  "Osmosis",
+  "PAX Gold",
+  "PRUX",
+  "PRivaCY Coin",
+  "PS Foundation",
+  "PancakeSwap",
+  "Pandacoin",
+  "Pangea Poker",
+  "Paxos Standard",
+  "Peercoin",
+  "Pegaxy Stone",
+  "Pirate",
+  "Polkadot",
+  "Polygon",
+  "PotCoin",
+  "Power Ledger",
+  "Primecoin",
+  "Profile Utility Token",
+  "QRC20",
+  "QTUM Testnet",
+  "Qbao",
+  "Qcash",
+  "Qi Airdrop Token",
+  "Qi Swap",
+  "Qtum",
+  "Quant",
+  "QuarkChain",
+  "REVS",
+  "RSK Smart Bitcoin",
+  "Raptoreum",
+  "RavenCoin",
+  "ReddCoin",
+  "Ren",
+  "Render",
+  "Request",
+  "Reserve Rights",
+  "Revain",
+  "Rick",
+  "Rocket Pool",
+  "Runebase",
+  "S4FE",
+  "SKALE",
+  "SOLVE",
+  "STASIS EURO",
+  "STEPN",
+  "SafeSwap",
+  "Scry.info",
+  "Secret",
+  "Seele",
+  "Serum",
+  "Share",
+  "Shiba Inu",
+  "SibMining",
+  "Signum",
+  "SingularityNET",
+  "SmartBCH",
+  "Solana",
+  "Sora",
+  "Sour",
+  "Spacecoin",
+  "Spice",
+  "StakedFIRO",
+  "Status",
+  "Stellar",
+  "Storj",
+  "StraitsX Indonesian Rupiah",
+  "StraitsX Singapore Dollar",
+  "SuperMESH",
+  "Supernet",
+  "Sushi",
+  "Swipe",
+  "SwissBorg",
+  "Synthetix",
+  "Syscoin",
+  "TRON",
+  "TRON (OLD)",
+  "Tamadoge",
+  "Telcoin",
+  "Terracoin",
+  "Tether",
+  "Tether (OLD)",
+  "Tezos",
+  "The Graph",
+  "The Sandbox",
+  "ThreeFold",
+  "Tokel",
+  "Toncoin",
+  "Travala.com",
+  "Trinity Trust Token",
+  "TrueUSD",
+  "Trust Wallet",
+  "UMA",
+  "USD Coin",
+  "USD Coin (OLD)",
+  "USDD",
+  "Ubiq",
+  "Ultra",
+  "Unibright",
+  "Uniform Fiscal Object",
+  "Uniswap",
+  "Unitus",
+  "Unobtanium",
+  "Uquid Coin",
+  "Utrust",
+  "VOTE2023",
+  "Validity",
+  "VanillaCash",
+  "Vaporum",
+  "VeChain",
+  "Venus",
+  "Verasity",
+  "Verge",
+  "Verium Reserve",
+  "Vertcoin",
+  "Verus Coin",
+  "Viacoin",
+  "Vite",
+  "Voyager",
+  "WOO Network",
+  "Waves",
+  "Whive",
+  "Widecoin",
+  "Wrapped Bitcoin",
+  "Wrapped Widecoin",
+  "XRP",
+  "Zcash",
+  "Zero",
+  "Zetacoin",
+  "Zilliqa",
+  "Zombie",
+  "Zombie Inu",
+  "aelf",
+  "agEUR",
+  "e-Gulden",
+  "eCash",
+  "eIlien",
+  "flexUSD",
+  "iExec RLC",
+  "tBitcoin",
+  "yearn.finance"
+]
+-------
+Checking field: rpcport
+Possible null values:
+17
+Possible enum values:
+[
+  null,
+  80,
+  1441,
+  1605,
+  1867,
+  1979,
+  2137,
+  3563,
+  3776,
+  3889,
+  5222,
+  5788,
+  5888,
+  6376,
+  7771,
+  7896,
+  7998,
+  8087,
+  8225,
+  8232,
+  8332,
+  8336,
+  8339,
+  8344,
+  8370,
+  8427,
+  8516,
+  8536,
+  8552,
+  8766,
+  8819,
+  8846,
+  8888,
+  9110,
+  9245,
+  9262,
+  9332,
+  9337,
+  9402,
+  9432,
+  9455,
+  9459,
+  9469,
+  9902,
+  9998,
+  10041,
+  10196,
+  10702,
+  11341,
+  11890,
+  11964,
+  12341,
+  12386,
+  12986,
+  13332,
+  13889,
+  14022,
+  14068,
+  14250,
+  14431,
+  15106,
+  15715,
+  16124,
+  16348,
+  18332,
+  19595,
+  20102,
+  20849,
+  21015,
+  21687,
+  22014,
+  22444,
+  22555,
+  23226,
+  23811,
+  25435,
+  25715,
+  27486,
+  27914,
+  28388,
+  29405,
+  31034,
+  33333,
+  33700,
+  33825,
+  33987,
+  34330,
+  35573,
+  35593,
+  36790,
+  40265,
+  41879,
+  41889,
+  42000,
+  42068,
+  44444,
+  45443,
+  48888,
+  49122,
+  50604,
+  51609,
+  51677,
+  52592,
+  57776,
+  62415,
+  62457,
+  65535
+]
+-------
+Checking field: mm2
+Possible null values:
+0
+Possible enum values:
+[
+  1
+]
+-------
+Checking field: chain_id
+Possible null values:
+173
+Possible enum values:
+[
+  null,
+  1,
+  8,
+  30,
+  56,
+  61,
+  97,
+  128,
+  137,
+  250,
+  321,
+  1284,
+  1285,
+  4002,
+  10000,
+  42161,
+  43113,
+  43114,
+  80001,
+  1666600000
+]
+-------
+Checking field: required_confirmations
+Possible null values:
+13
+Possible enum values:
+[
+  null,
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  9,
+  10,
+  14,
+  20
+]
+-------
+Checking field: avg_blocktime
+Possible null values:
+11
+Possible enum values:
+[
+  null,
+  1,
+  1.5,
+  1.8,
+  2.4,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  15,
+  24,
+  30,
+  32,
+  36,
+  40,
+  45,
+  60,
+  66,
+  75,
+  90,
+  120,
+  150,
+  180,
+  240,
+  300,
+  450,
+  510,
+  600,
+  1200
+]
+-------
+Checking field: decimals
+Possible null values:
+289
+Possible enum values:
+[
+  null,
+  2,
+  4,
+  6,
+  7,
+  8,
+  9,
+  18
+]
+-------
+Checking field: protocol
+Possible null values:
+0
+Possible enum values:
+[
+  {
+    "type": "TENDERMINT",
+    "protocol_data": {
+      "decimals": 6,
+      "denom": "uatom",
+      "account_prefix": "cosmos",
+      "chain_id": "cosmoshub-4"
+    }
+  },
+  {
+    "type": "TENDERMINT",
+    "protocol_data": {
+      "decimals": 6,
+      "denom": "uiris",
+      "account_prefix": "iaa",
+      "chain_id": "irishub-1",
+      "gas_price": 0.5
+    }
+  },
+  {
+    "type": "TENDERMINT",
+    "protocol_data": {
+      "decimals": 6,
+      "denom": "uosmo",
+      "account_prefix": "osmo",
+      "chain_id": "osmosis-1",
+      "gas_price": 0.5
+    }
+  },
+  {
+    "type": "ZHTLC",
+    "protocol_data": {
+      "consensus_params": {
+        "overwinter_activation_height": 152855,
+        "sapling_activation_height": 152855,
+        "blossom_activation_height": null,
+        "heartwood_activation_height": null,
+        "canopy_activation_height": null,
+        "coin_type": 133,
+        "hrp_sapling_extended_spending_key": "secret-extended-key-main",
+        "hrp_sapling_extended_full_viewing_key": "zxviews",
+        "hrp_sapling_payment_address": "zs",
+        "b58_pubkey_address_prefix": [
+          28,
+          184
+        ],
+        "b58_script_address_prefix": [
+          28,
+          189
+        ]
+      },
+      "check_point_block": {
+        "height": 1900000,
+        "time": 1652512363,
+        "hash": "44797f3bb78323a7717007f1e289a3689e0b5b3433385dbd8e6f6a1700000000",
+        "sapling_tree": "01e40c26f4a28071535b95ae637d30a209531e92a33de0a649e51183771025fd0f016cdc51442fcb328d047a709dc0f41e0173953404711045b3ef3036d7fd4151271501d6c94c5ce6787826af809aaee83768c4b7d4f02c8dc2d24cf60ed5f127a5d730018a752ea9d9efb3e1ac0e6e705ac9f7f9863cfa8f612ad43802175338d8d7cc6000000001fc3542434eff03075ea5f0a64f1dfb2f042d281b1a057e9f6c765b533ce51219013ad9484b1e901e62b93e7538f913dcb27695380c3bc579e79f5cc900f28e596e0001431da5f01fe11d58300134caf5ac76e0b1b7486fd02425dd8871bca4afa94d4b01bb39de1c1d10a25ce0cc775bc74b6b0f056c28639e7c5b7651bb8460060085530000000001732ddf661e68c9e335599bb0b18b048d2f1c06b20eabd18239ad2f3cc45fa910014496bab5eedab205b5f2a206bd1db30c5bc8bc0c1914a102f87010f3431be21a0000010b5fd8e7610754075f936463780e85841f3ab8ca2978f9afdf7c2c250f16a75f01db56bc66eb1cd54ec6861e5cf24af2f4a17991556a52ca781007569e95b9842401c03877ecdd98378b321250640a1885604d675aaa50380e49da8cfa6ff7deaf15"
+      }
+    }
+  },
+  {
+    "type": "ZHTLC",
+    "protocol_data": {
+      "consensus_params": {
+        "overwinter_activation_height": 0,
+        "sapling_activation_height": 1,
+        "blossom_activation_height": null,
+        "heartwood_activation_height": null,
+        "canopy_activation_height": null,
+        "coin_type": 133,
+        "hrp_sapling_extended_spending_key": "secret-extended-key-main",
+        "hrp_sapling_extended_full_viewing_key": "zxviews",
+        "hrp_sapling_payment_address": "zs",
+        "b58_pubkey_address_prefix": [
+          28,
+          184
+        ],
+        "b58_script_address_prefix": [
+          28,
+          189
+        ]
+      }
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x0000000000085d4780B73119b644AE5ecd22b376"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x000000089fb24237dA101020Ff8e2AfD14624687"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x031b41e504677879370e9DBcF937283A8691Fa7f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x044d078F1c86508e13328842Cc75AC021B272958"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x045c4324039dA91c52C55DF5D785385Aab073DcF"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x048E9b1ddF9EBbb224812372280e94Ccac443f9e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x08E6d1F0c4877Ef2993Ad733Fc6F1D022d0E9DBf"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0x09800417b097c61b9fd26b3ddde4238304a110d5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x0C51f415cF478f8D08c246a6C6Ee180C5dC3A012"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x0bF46C86Ce3B904660aE85677EaA20B0C1b24064"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x0f17BC9a994b87b5225cFb6a2Cd4D667ADb4F20B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x101d82428437127bF1608F699CD651e6Abf9766E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x12b6893cE26Ea6341919FE289212ef77e51688c8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x14016E85a25aeb13065688cAFB43044C2ef86784"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x16939ef78684453bfDFb47825F8a5F714f12623a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x16c4106966cE30e06E806A7c40eEFb46d84cE7e5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x190Eb8a183D22a4bdf278c6791b152228857c033"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x192Ef3FFF1708456D3A1F21354FA8d6bFd86b45c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x197E5d6CcfF265AC3E303a34Db360ee1429f5d1A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x1B073382E63411E3BcfFE90aC1B9A43feFa1Ec6F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x1B8e27ABA297466fc6765Ce55BD12A8E216759da"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x1a3acf6D19267E2d3e7f898f42803e90C9219062"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x2003f7ba57Ea956B05B85C60B4B2Ceea9b111256"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x202b4936fE1a82A4965220860aE46d7d3939Bb25"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x2088C47Fc0c78356c622F79dBa4CbE1cCfA84A91"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x212208bcc81F3a2D0188afF76A2d39351eb53b96"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x214DB107654fF987AD859F34125307783fC8e387"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x221657776846890989a759BA2973e427DfF5C9bB"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x22C54cE8321A4015740eE1109D9cBc25815C46E6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x23b8683Ff98F9E4781552DFE6f12Aa32814924e8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x249848BeCA43aC405b8102Ec90Dd5F22CA513c06"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x2794DAD4077602eD25A88d03781528D1637898B4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x27C70Cd1946795B66be9d954418546998b546634"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x29b0Da86e484E1C0029B56e817912d778aC0EC69"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x2aa69E8D25C045B659787BC1f03ce47a388DB6E8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0x2c660b0d4d53382aeef855d3010d697970fa0bd5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x2c826035c1C36986117A0e949bD6ad4baB54afE2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x2d5563da42b06FbBF9c67b7DC073cF6A7842239e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x2d72A97a31Dc920dB03330780d30074626e39C8A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0x2f65a0af11d50d2d15962db39d7f7b0619ed55ae"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x3103dF8F05c4D8aF16fD22AE63E406b97FeC6938"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x316622977073BBC3dF32E7d2A9B3c77596a0a603"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x31965b5c9c55f5579eb49F4b3AcC59aA10a7B98E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x3597bfD533a99c9aa083587B074434E61Eb0A258"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x390603F023A33C76e3A4bf7B6Cc9Fba5E87dd05D"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x39fBBABf11738317a448031930706cd3e612e1B9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x3Cef98bb43d732E2F285eE605a8158cDE967D219"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH-ARB20",
+      "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0x4060e21ac01b5c5d2a3f01cecd7cbf820f50be95"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x408e41876cCCDC0F92210600ef50372656052a38"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x41e5560054824eA6B0732E656E3Ad64E20e94E45"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x420412E765BFa6d85aaaC94b4f7b708C89be2e2B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x42476F744292107e34519F9c357927074Ea3F75D"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x43C934A845205F0b514417d757d7235B8f53f1B9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x4500E16dA66b99e0C55D7B46EBBD59bc413BA171"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x47841910329aaa6b88D5e9DcdE9000195151dc72"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x486880FB16408b47f928F472f57beC55AC6089d1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x4a220E6096B25EADb88358cb44068A3248254675"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x4a2c860cEC6471b9F5F5a336eB4F38bb21683c98"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0x4cdaa46741af44c68179c54c4fcb02c2bf646d30"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x4d224452801ACEd8B2F0aebE155379bb5D594381"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x4d5AC5cc4f8aBdf2EC2Cb986C00C382369f787D4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x50B728D8D964fd00C2d0AAD81718b71311feF68a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x530e9346870E632A63E8d461bb3c3622e00782DE"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x53dfEa0A8CC2A2A2e425E1C174Bc162999723ea0"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0x54fefdb5b31164f66ddb68becd7bdd864cacd65b"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x553d3D295e0f695B9228246232eDF400ed3560B5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x55d398326f99059fF775485246999027B3197955"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x564A341Df6C126f90cf3ECB92120FD7190ACb401"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x56ee926bD8c72B2d5fa1aF4d9E4Cbb515a1E3Adc"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x58f7345b5295E43aA454911571f13be186655BE9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x5947BB275c521040051D82396192181b413227A3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x596eBE76e2DB4470966ea395B0d063aC6197A8C5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x596fA47043f99A4e0F122243B841E55375cdE0d2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x5B7533812759B45C2B44C19e320ba2cD2681b542"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MOVR",
+      "contract_address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x5eE41aB6edd38cDfB9f6B4e6Cf7F75c87E170d98"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x5fb4968fC85868DF3aD2d6e59883a10570f01D18"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x607F4C5BB672230e8672085532f7e901544a7375"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0x60f33e17d8d2dba280cf85b6c35880dedd8ed728"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x61299774020dA444Af134c82fa83E3810b309991"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x62edc0692BD897D2295872a9FFCac5425011c661"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x63a72806098Bd3D9520cC43356dD78afe5D386D9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x64FF637fB478863B7468bc97D30a5bF3A428a1fD"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x652D253b7Ca91810A4a05ACFc39729387c5090C0"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x66e4d38b20173F509A1fF5d82866949e4fE898da"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x67b725d7e342d7B611fa85e859Df9697D9378B2e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x6810e776880C02933D47DB1b9fc05908e5386b96"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x69a7169F9Da9BBa04b982e49Ffd8d6a16c70c590"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x6E8ce0519B7e4d691BaCE464099547E5fC17679c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x6F3B3286fd86d8b47EC737CEB3D0D354cc657B3e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x6FDcdfef7c496407cCb0cEC90f9C5Aaa1Cc8D888"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x6e2D990C8e718E7b6D86ed08eBf0FF2dEc05253B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MOVR",
+      "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7283DfA2d8D7e277b148cc263B5d8Ae02f1076D3"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0x72e531e37c31ecbe336208fd66e93b48df3af420"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x72fF5742319eF07061836F5C924aC6D72c919080"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x73b6086955c820370A18002F60E9b51FB67d7e1A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x7409856CAE628f5d578B285B45669b36E7005283"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x74926B3d118a63F6958922d3DC05eB9C6E6E00c6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x74b23882a30290451A17c44f4F05243b6b58C76d"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x75231F58b43240C9718Dd58B4967c5114342a86c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x7583FEDDbceFA813dc18259940F76a02710A8905"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x76A797A59Ba2C17726896976B7B3747BfD1d220f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x788D2780992222360f674cc12C36478870b8E6ED"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x791630C11c7159A748d8c2267a66780B3DDC40a7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7950865a9140cB519342433146Ed5b40c6F210f7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x79f3244F3FFd7500A31a90Bb83C7D56649c2C7C5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x7FBc10850caE055B27039aF31bD258430e714c62"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7b0E7E40eE4672599F7095D1DdD730b0805195BA"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7c869b5A294b1314E985283d01C702B62224a05f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x7d016eec9c25232b01F23EF992D98ca97fc2AF5a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MOVR",
+      "contract_address": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x84526c812D8f6c4fD6C1a5B68713AFF50733E772"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x85c4EdC43724e954e5849cAAab61A26a9CB65F1B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x8724F9FB7B3f1bb6f2c90B3Ad3Fd6B3c20A06429"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x8806926Ab68EB5a7b909DcAf6FdBe5d93271D6e2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x88128fd4b259552A9A1D457f435a6527AAb72d42"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x8E16bf47065Fe843A82f4399bAF5aBac4E0822B7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x8a0cAc13c7da965a312f08ea4229c37869e85cB9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x8ca194A3b22077359b5732DE53373D4afC11DeE3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x8f8221aFbB33998d8584A2B05749bA73c37a938a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x9362Bbef4B8313A8Aa9f0c9808B80577Aa26B73B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MOVR",
+      "contract_address": "0x95bf7E307BC1ab0BA38ae10fc27084bC36FcD605"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x973e52691176d36453868D9d86572788d27041A9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x9813037ee2218799597d83D4a5B6F3b6778218d9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x98443B96EA4b0858FDF3219Cd13e98C7A4690588"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0x9879aBDea01a879644185341F7aF7d8343556B7a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x993163CaD35162fB579D7B64e6695cB076EF5064"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x99956D38059cf7bEDA96Ec91Aa7BB2477E0901DD"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x9A2f5556e9A637e8fBcE886d8e3cf8b316a1D8a2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0x9e004545c59D359F6B7BFB06a26390b087717b42"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0x9fB1d52596c44603198fB0aee434fac3a679f702"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xA069008A669e2Af00a86673D9D584cfb524A42Cc"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xA1434F1FC3F437fa33F7a781E041961C0205B5Da"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xA33789a5478Add74e8D7628E817a281aAbD92dA9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xA55C1e67039B6d59E91eb4cDa2bfc5A854989102"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xAec7d1069e3a914a3EB50f0BFB1796751f2ce48a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xB1e93236ab6073fdAC58adA5564897177D4bcC43"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xB26631c6dda06aD89B93C71400D25692de89c068"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MOVR",
+      "contract_address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xBD1fe73e1f12bD2bc237De9b626F056f21f86427"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xBEc1e1009CE00ECf7F16372451Ac849b39C32897"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xBF05279F9Bf1CE69bBFEd670813b7e431142Afa4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xBF84720097de111A80f46f9D077643967042841A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xBFEf6cCFC830D3BaCA4F6766a0d4AaA242Ca9F3D"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xBe428c3867F05deA2A89Fc76a102b544eaC7f772"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xBeC243C995409E6520D7C41E404da5dEba4b209B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xC19a5caCC2bb68Ff09f2Fcc695F31493A039Fa5e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xC1fdbed7Dac39caE2CcC0748f7a80dC446F6a594"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xCDAF240C90F989847c56aC9Dee754F76F41c5833"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xD13c7342e1ef687C5ad21b27c2b65D772cAb5C8c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xD17027b85Abf02721F953EE528721A980fa58941"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xD533a949740bb3306d119CC777fa900bA034cd52"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xDC3326e71D45186F113a2F448984CA0e8D201995"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xDCe07662CA8EbC241316a15B611c89711414Dd1a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xDE2F075f6F14EB9D96755b24E416A53E736Ca363"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xDa446fAd08277B4D2591536F204E018f32B6831c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xE0a60890BB7F9250089455620063fb6fe4DC159a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MOVR",
+      "contract_address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xE5417Af564e4bFDA1c483642db72007871397896"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xE66747a101bFF2dBA3697199DCcE5b743b454759"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xE6Ce27025F13f5213bBc560dC275e292965a392F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xE76e97C157658004eE22e01C03a5e21A4655A2Fd"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xEe58E4D62b10A92dB1089d4D040B759C28aE16Cd"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xF411903cbC70a74d22900a5DE66A2dda66507255"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xF7C71cab11E3694638Bb9A106E0F430565BD15F1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xFC31366Be1795c1Ff444b9fBF55759733aD4d26D"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xFC3E14af0f0c2129a84Cc013D48C70D682902874"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH-ARB20",
+      "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xa22f6bc96f13bcC84dF36109c973d3c0505a067E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xa2B726B1145A4773F68593CF171187d8EBe4d495"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0xa71EdC38d189767582C38A3145b5873052c3e47a"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xaD22f63404f7305e4713CcBd4F296f34770513f4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xb0DBa4BD6b6C4fC9A1263D8C19A57A6BdD740A52"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0xb27d7bf95b03e02b55d5eb63d3f1692762101bf9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "FTM",
+      "contract_address": "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xb49dd3eDB98FBe82A01DFcb556Cd016964baf5A3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xb683D83a532e2Cb7DFa5275eED3698436371cc9f"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xb7A18bd55e8E3E2262d7c8Ee7b4DD9B216Df0Faf"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xb897D0a0f68800f8Be7D69ffDD1c24b69f57Bf3e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xba100000625a3754423978a60c9317c58a424e3D"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xba9d4199faB4f26eFE3551D490E3821486f135Ba"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xc748673057861a797275CD8A068AbB95A902e8de"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xcBBB3e5099F769F6d4E2b8b92DC0e268f7E099D8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xcE186ad6430E2Fe494a22C9eDbD4c68794a28B35"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xd17479997F34dd9156Deef8F95A52D81D265be9c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xd2cDfD5d26dfA1D11116B9ED7DBd7C6B88C6e1D3"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "tQTUM",
+      "contract_address": "0xd362e096e873eb7907e205fadc6175c6fec7bc44"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xd4ed60d8368a92b5F1ca33aF61eF2A94714B2d46"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xd501281565bf7789224523144Fe5D98e8B28f267"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "AVAX",
+      "contract_address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xd7c8469c7eC40f853dA5f651DE81b45aeD47e5aB"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0xd8dec2b605005749abbf4b060edad3070e23cf5c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xd98F75b1A3261dab9eEd4956c93F33749027a964"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0xdB11743fe8B129b49b11236E8a715004BDabe7e5"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xdB25f211AB05b1c97D595516F45794528a807ad8"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xdE81028C743f5304fe2cdEfac588f572d629a687"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xdF574c24545E5FfEcb9a659c229253D4111d87e1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xda73AE86D38D9b5D22C64722320cCC071cB79ba3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xdfa3Ef49d357c6b0B2DfBB88701af2b7A053fD0A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xe20B9e246db5a0d21BF9209E4858Bc9A3ff7A034"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xe56a473043EaAB7947c0a2408cEA623074500EE3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xeA998D307ACA04D4f0A3B3036Aba84AE2E409C0A"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xeBbfB9E5aF3172C7C0e1D4ff7106A8Bbb961F87B"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "HT",
+      "contract_address": "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xeaFE31Cd9e8E01C8f0073A2C974f728Fb80e9DcE"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xebF2096E01455108bAdCbAF86cE30b6e5A72aa52"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "ETH",
+      "contract_address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xf1938Ce12400f9a761084E7A80d37e732a4dA056"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0xf2033ede578e17fa6231047265010445bca8cf1c"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0xf2703e93f87b846a7aacec1247beaec1c583daa4"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xf2f77FE7b8e66571E0fca7104c4d670BF1C8d722"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xf307910A4c7bbc79691fD374889b36d8531B08e3"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MOVR",
+      "contract_address": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0xf397f39ce992b0f5bdc7ec1109d676d07f7af2f9"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "KCS",
+      "contract_address": "0xf55aF137A98607F7ED2eFEfA4cd2DfE70E4253b1"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "MATIC",
+      "contract_address": "0xf6372cDb9c1d3674E83842e3800F2A62aC9F3C66"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xfb5B838b6cfEEdC2873aB27866079AC55363D37E"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xfb6115445Bff7b52FeB98650C87f44907E58f802"
+    }
+  },
+  {
+    "type": "ERC20",
+    "protocol_data": {
+      "platform": "BNB",
+      "contract_address": "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0xfe59cbc1704e89a698571413a81f0de9d8f00c69"
+    }
+  },
+  {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0xffb67c56c42b71144ae394dbfe298d863fbb3b9e"
+    }
+  },
+  {
+    "type": "TENDERMINTTOKEN",
+    "protocol_data": {
+      "platform": "IRIS",
+      "decimals": 6,
+      "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "gas_price": 0.5
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 2,
+      "token_id": "5321508197ffed321c5fc9a1427e5c68b31d2c1ec92ae1c495f8acb08d8d66cd",
+      "platform": "BCH",
+      "required_confirmations": 1,
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 2,
+      "token_id": "926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
+      "platform": "BCH",
+      "required_confirmations": 1,
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 4,
+      "token_id": "bb309e48930671582bea508f9a1d9b491e49b69be3d6f372dc08da2ac6e90eb7",
+      "platform": "tBCH",
+      "required_confirmations": 1,
+      "slp_prefix": "slptest"
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 6,
+      "token_id": "bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378",
+      "platform": "BCH",
+      "required_confirmations": 1,
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 6,
+      "token_id": "dd21be4532d93661e8ffe16db6535af0fb8ee1344d1fef81a193e2b4cfa9fbc9",
+      "platform": "BCH",
+      "required_confirmations": 1,
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 8,
+      "token_id": "38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0",
+      "platform": "BCH",
+      "required_confirmations": 1,
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 8,
+      "token_id": "4de69e374a8ed21cbddd47f2338cc0f479dc58daa2bbe11cd604ca488eca0ddf",
+      "platform": "BCH",
+      "required_confirmations": 1,
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 8,
+      "token_id": "6448381f9649ecacd8c30189cfbfee71a91b6b9738ea494fe33f8b8b51cbfca0",
+      "platform": "BCH",
+      "required_confirmations": 1,
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "SLPTOKEN",
+    "protocol_data": {
+      "decimals": 8,
+      "token_id": "9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
+      "platform": "BCH",
+      "required_confirmations": 1,
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "BCH",
+    "protocol_data": {
+      "slp_prefix": "simpleledger"
+    }
+  },
+  {
+    "type": "BCH",
+    "protocol_data": {
+      "slp_prefix": "slptest"
+    }
+  },
+  {
+    "type": "ETH"
+  },
+  {
+    "type": "QTUM"
+  },
+  {
+    "type": "UTXO"
+  }
+]
+-------
+Checking field: derivation_path
+Possible null values:
+43
+Possible enum values:
+[
+  null,
+  "m/44'/0'",
+  "m/44'/10'",
+  "m/44'/1007'",
+  "m/44'/1010'",
+  "m/44'/10226'",
+  "m/44'/1023'",
+  "m/44'/108'",
+  "m/44'/118'",
+  "m/44'/1284'",
+  "m/44'/1285'",
+  "m/44'/130'",
+  "m/44'/133'",
+  "m/44'/137'",
+  "m/44'/14'",
+  "m/44'/140'",
+  "m/44'/141'",
+  "m/44'/145'",
+  "m/44'/160'",
+  "m/44'/17'",
+  "m/44'/175'",
+  "m/44'/177'",
+  "m/44'/18'",
+  "m/44'/1899'",
+  "m/44'/191'",
+  "m/44'/19167'",
+  "m/44'/192'",
+  "m/44'/2'",
+  "m/44'/20'",
+  "m/44'/202'",
+  "m/44'/2137'",
+  "m/44'/22'",
+  "m/44'/2301'",
+  "m/44'/24'",
+  "m/44'/249'",
+  "m/44'/278'",
+  "m/44'/28'",
+  "m/44'/3'",
+  "m/44'/323'",
+  "m/44'/34'",
+  "m/44'/357'",
+  "m/44'/37'",
+  "m/44'/4'",
+  "m/44'/41'",
+  "m/44'/4242'",
+  "m/44'/5'",
+  "m/44'/50'",
+  "m/44'/566'",
+  "m/44'/57'",
+  "m/44'/6'",
+  "m/44'/60'",
+  "m/44'/61'",
+  "m/44'/613'",
+  "m/44'/641'",
+  "m/44'/681'",
+  "m/44'/682'",
+  "m/44'/69420'",
+  "m/44'/7'",
+  "m/44'/714'",
+  "m/44'/75'",
+  "m/44'/77'",
+  "m/44'/78'",
+  "m/44'/8'",
+  "m/44'/81'",
+  "m/44'/83'",
+  "m/44'/85'",
+  "m/44'/90'",
+  "m/44'/9000'",
+  "m/44'/92'",
+  "m/44'/921'",
+  "m/44'/966'"
+]
+-------
+Checking field: contract_address
+Possible null values:
+174
+Possible enum values:
+[
+  null,
+  "0x0000000000085d4780B73119b644AE5ecd22b376",
+  "0x000000089fb24237dA101020Ff8e2AfD14624687",
+  "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48",
+  "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7",
+  "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047",
+  "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7",
+  "0x031b41e504677879370e9DBcF937283A8691Fa7f",
+  "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+  "0x044d078F1c86508e13328842Cc75AC021B272958",
+  "0x045c4324039dA91c52C55DF5D785385Aab073DcF",
+  "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213",
+  "0x048E9b1ddF9EBbb224812372280e94Ccac443f9e",
+  "0x049d68029688eAbF473097a2fC38ef61633A3C7A",
+  "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+  "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf",
+  "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
+  "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC",
+  "0x08E6d1F0c4877Ef2993Ad733Fc6F1D022d0E9DBf",
+  "0x09800417b097c61b9fd26b3ddde4238304a110d5",
+  "0x09a3EcAFa817268f77BE1283176B946C4ff2E608",
+  "0x0AaB8DC887D34f00D50E19aee48371a941390d14",
+  "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf",
+  "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+  "0x0C51f415cF478f8D08c246a6C6Ee180C5dC3A012",
+  "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba",
+  "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+  "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153",
+  "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+  "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
+  "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+  "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+  "0x0bF46C86Ce3B904660aE85677EaA20B0C1b24064",
+  "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+  "0x0f17BC9a994b87b5225cFb6a2Cd4D667ADb4F20B",
+  "0x101A023270368c0D50BFfb62780F4aFd4ea79C35",
+  "0x101d82428437127bF1608F699CD651e6Abf9766E",
+  "0x111111111117dC0aa78b770fA6A738034120C302",
+  "0x12b6893cE26Ea6341919FE289212ef77e51688c8",
+  "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9",
+  "0x14016E85a25aeb13065688cAFB43044C2ef86784",
+  "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
+  "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E",
+  "0x16939ef78684453bfDFb47825F8a5F714f12623a",
+  "0x16c4106966cE30e06E806A7c40eEFb46d84cE7e5",
+  "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+  "0x190Eb8a183D22a4bdf278c6791b152228857c033",
+  "0x192Ef3FFF1708456D3A1F21354FA8d6bFd86b45c",
+  "0x197E5d6CcfF265AC3E303a34Db360ee1429f5d1A",
+  "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
+  "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+  "0x1B073382E63411E3BcfFE90aC1B9A43feFa1Ec6F",
+  "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603",
+  "0x1B8e27ABA297466fc6765Ce55BD12A8E216759da",
+  "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+  "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB",
+  "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C",
+  "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
+  "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+  "0x1E4F97b9f9F913c46F1632781732927B9019C68b",
+  "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
+  "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
+  "0x1a3acf6D19267E2d3e7f898f42803e90C9219062",
+  "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+  "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+  "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163",
+  "0x2003f7ba57Ea956B05B85C60B4B2Ceea9b111256",
+  "0x202b4936fE1a82A4965220860aE46d7d3939Bb25",
+  "0x2088C47Fc0c78356c622F79dBa4CbE1cCfA84A91",
+  "0x212208bcc81F3a2D0188afF76A2d39351eb53b96",
+  "0x214DB107654fF987AD859F34125307783fC8e387",
+  "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+  "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8",
+  "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F",
+  "0x221657776846890989a759BA2973e427DfF5C9bB",
+  "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+  "0x22C54cE8321A4015740eE1109D9cBc25815C46E6",
+  "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C",
+  "0x23b8683Ff98F9E4781552DFE6f12Aa32814924e8",
+  "0x249848BeCA43aC405b8102Ec90Dd5F22CA513c06",
+  "0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8",
+  "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+  "0x2794DAD4077602eD25A88d03781528D1637898B4",
+  "0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d",
+  "0x27C70Cd1946795B66be9d954418546998b546634",
+  "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
+  "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
+  "0x29b0Da86e484E1C0029B56e817912d778aC0EC69",
+  "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc",
+  "0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3",
+  "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7",
+  "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
+  "0x2aa69E8D25C045B659787BC1f03ce47a388DB6E8",
+  "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+  "0x2bAa79e7C13C302210436455925E68aD8fA687F0",
+  "0x2c660b0d4d53382aeef855d3010d697970fa0bd5",
+  "0x2c826035c1C36986117A0e949bD6ad4baB54afE2",
+  "0x2d5563da42b06FbBF9c67b7DC073cF6A7842239e",
+  "0x2d72A97a31Dc920dB03330780d30074626e39C8A",
+  "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",
+  "0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3",
+  "0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9",
+  "0x2f65a0af11d50d2d15962db39d7f7b0619ed55ae",
+  "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
+  "0x3066818837c5e6eD6601bd5a91B0762877A6B731",
+  "0x3103dF8F05c4D8aF16fD22AE63E406b97FeC6938",
+  "0x316622977073BBC3dF32E7d2A9B3c77596a0a603",
+  "0x31965b5c9c55f5579eb49F4b3AcC59aA10a7B98E",
+  "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+  "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+  "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
+  "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
+  "0x3597bfD533a99c9aa083587B074434E61Eb0A258",
+  "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76",
+  "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+  "0x390603F023A33C76e3A4bf7B6Cc9Fba5E87dd05D",
+  "0x39fBBABf11738317a448031930706cd3e612e1B9",
+  "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f",
+  "0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339",
+  "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d",
+  "0x3Cef98bb43d732E2F285eE605a8158cDE967D219",
+  "0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a",
+  "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+  "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8",
+  "0x3a8B787f78D775AECFEEa15706D4221B40F345AB",
+  "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
+  "0x4060e21ac01b5c5d2a3f01cecd7cbf820f50be95",
+  "0x408e41876cCCDC0F92210600ef50372656052a38",
+  "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
+  "0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E",
+  "0x41e5560054824eA6B0732E656E3Ad64E20e94E45",
+  "0x420412E765BFa6d85aaaC94b4f7b708C89be2e2B",
+  "0x42476F744292107e34519F9c357927074Ea3F75D",
+  "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
+  "0x43C934A845205F0b514417d757d7235B8f53f1B9",
+  "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd",
+  "0x446C9033E7516D820cc9a2ce2d0B7328b579406F",
+  "0x4500E16dA66b99e0C55D7B46EBBD59bc413BA171",
+  "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+  "0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
+  "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+  "0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5",
+  "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF",
+  "0x47841910329aaa6b88D5e9DcdE9000195151dc72",
+  "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A",
+  "0x486880FB16408b47f928F472f57beC55AC6089d1",
+  "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
+  "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+  "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
+  "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+  "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667",
+  "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+  "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5",
+  "0x4a220E6096B25EADb88358cb44068A3248254675",
+  "0x4a2c860cEC6471b9F5F5a336eB4F38bb21683c98",
+  "0x4cdaa46741af44c68179c54c4fcb02c2bf646d30",
+  "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+  "0x4d5AC5cc4f8aBdf2EC2Cb986C00C382369f787D4",
+  "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
+  "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+  "0x50B728D8D964fd00C2d0AAD81718b71311feF68a",
+  "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+  "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
+  "0x530e9346870E632A63E8d461bb3c3622e00782DE",
+  "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+  "0x53dfEa0A8CC2A2A2e425E1C174Bc162999723ea0",
+  "0x54a3017754BFba73F71F37d893A368814CbFf457",
+  "0x54fefdb5b31164f66ddb68becd7bdd864cacd65b",
+  "0x553d3D295e0f695B9228246232eDF400ed3560B5",
+  "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5",
+  "0x55d398326f99059fF775485246999027B3197955",
+  "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927",
+  "0x564A341Df6C126f90cf3ECB92120FD7190ACb401",
+  "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
+  "0x56ee926bD8c72B2d5fa1aF4d9E4Cbb515a1E3Adc",
+  "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
+  "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+  "0x58f7345b5295E43aA454911571f13be186655BE9",
+  "0x5947BB275c521040051D82396192181b413227A3",
+  "0x595832F8FC6BF59c85C527fEC3740A1b7a361269",
+  "0x596eBE76e2DB4470966ea395B0d063aC6197A8C5",
+  "0x596fA47043f99A4e0F122243B841E55375cdE0d2",
+  "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+  "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9",
+  "0x5B7533812759B45C2B44C19e320ba2cD2681b542",
+  "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818",
+  "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8",
+  "0x5cafe85d8983f61C059df359c504F1Bab8009e9e",
+  "0x5eE41aB6edd38cDfB9f6B4e6Cf7F75c87E170d98",
+  "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350",
+  "0x5fb4968fC85868DF3aD2d6e59883a10570f01D18",
+  "0x5fe2B58c013d7601147DcdD68C143A77499f5531",
+  "0x607F4C5BB672230e8672085532f7e901544a7375",
+  "0x60f33e17d8d2dba280cf85b6c35880dedd8ed728",
+  "0x61299774020dA444Af134c82fa83E3810b309991",
+  "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5",
+  "0x62414D03084EeB269E18C970a21f45D2967F0170",
+  "0x62edc0692BD897D2295872a9FFCac5425011c661",
+  "0x63a72806098Bd3D9520cC43356dD78afe5D386D9",
+  "0x64FF637fB478863B7468bc97D30a5bF3A428a1fD",
+  "0x652D253b7Ca91810A4a05ACFc39729387c5090C0",
+  "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a",
+  "0x66e4d38b20173F509A1fF5d82866949e4fE898da",
+  "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75",
+  "0x67b725d7e342d7B611fa85e859Df9697D9378B2e",
+  "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
+  "0x6810e776880C02933D47DB1b9fc05908e5386b96",
+  "0x69a7169F9Da9BBa04b982e49Ffd8d6a16c70c590",
+  "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
+  "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+  "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+  "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+  "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185",
+  "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24",
+  "0x6E8ce0519B7e4d691BaCE464099547E5fC17679c",
+  "0x6F3B3286fd86d8b47EC737CEB3D0D354cc657B3e",
+  "0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e",
+  "0x6FDcdfef7c496407cCb0cEC90f9C5Aaa1Cc8D888",
+  "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B",
+  "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0",
+  "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819",
+  "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
+  "0x6e2D990C8e718E7b6D86ed08eBf0FF2dEc05253B",
+  "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98",
+  "0x6f259637dcD74C767781E37Bc6133cd6A68aa161",
+  "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+  "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96",
+  "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+  "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
+  "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
+  "0x720CD16b011b987Da3518fbf38c3071d4F0D1495",
+  "0x7283DfA2d8D7e277b148cc263B5d8Ae02f1076D3",
+  "0x72e531e37c31ecbe336208fd66e93b48df3af420",
+  "0x72fF5742319eF07061836F5C924aC6D72c919080",
+  "0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b",
+  "0x73b6086955c820370A18002F60E9b51FB67d7e1A",
+  "0x7409856CAE628f5d578B285B45669b36E7005283",
+  "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
+  "0x74926B3d118a63F6958922d3DC05eB9C6E6E00c6",
+  "0x74b23882a30290451A17c44f4F05243b6b58C76d",
+  "0x75231F58b43240C9718Dd58B4967c5114342a86c",
+  "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701",
+  "0x7583FEDDbceFA813dc18259940F76a02710A8905",
+  "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c",
+  "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E",
+  "0x76A797A59Ba2C17726896976B7B3747BfD1d220f",
+  "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272",
+  "0x788D2780992222360f674cc12C36478870b8E6ED",
+  "0x791630C11c7159A748d8c2267a66780B3DDC40a7",
+  "0x7950865a9140cB519342433146Ed5b40c6F210f7",
+  "0x79f3244F3FFd7500A31a90Bb83C7D56649c2C7C5",
+  "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70",
+  "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+  "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429",
+  "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4",
+  "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5",
+  "0x7FBc10850caE055B27039aF31bD258430e714c62",
+  "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+  "0x7b0E7E40eE4672599F7095D1DdD730b0805195BA",
+  "0x7c869b5A294b1314E985283d01C702B62224a05f",
+  "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+  "0x7d016eec9c25232b01F23EF992D98ca97fc2AF5a",
+  "0x7dDEE176F665cD201F93eEDE625770E2fD911990",
+  "0x7eC26842F195c852Fa843bB9f6D8B583a274a157",
+  "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844",
+  "0x820802Fa8a99901F52e39acD21177b0BE6EE2974",
+  "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4",
+  "0x8343091F2499FD4b6174A46D067A920a3b851FF9",
+  "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
+  "0x84526c812D8f6c4fD6C1a5B68713AFF50733E772",
+  "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
+  "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1",
+  "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
+  "0x8595F9dA7b868b1822194fAEd312235E43007b49",
+  "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+  "0x85c4EdC43724e954e5849cAAab61A26a9CB65F1B",
+  "0x8724F9FB7B3f1bb6f2c90B3Ad3Fd6B3c20A06429",
+  "0x8806926Ab68EB5a7b909DcAf6FdBe5d93271D6e2",
+  "0x88128fd4b259552A9A1D457f435a6527AAb72d42",
+  "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
+  "0x8A9C67fee641579dEbA04928c4BC45F66e26343A",
+  "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+  "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
+  "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
+  "0x8E16bf47065Fe843A82f4399bAF5aBac4E0822B7",
+  "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+  "0x8a0cAc13c7da965a312f08ea4229c37869e85cB9",
+  "0x8ca194A3b22077359b5732DE53373D4afC11DeE3",
+  "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580",
+  "0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf",
+  "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+  "0x8f8221aFbB33998d8584A2B05749bA73c37a938a",
+  "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+  "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65",
+  "0x9362Bbef4B8313A8Aa9f0c9808B80577Aa26B73B",
+  "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
+  "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
+  "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6",
+  "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+  "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+  "0x95bf7E307BC1ab0BA38ae10fc27084bC36FcD605",
+  "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5",
+  "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+  "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+  "0x973e52691176d36453868D9d86572788d27041A9",
+  "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430",
+  "0x9813037ee2218799597d83D4a5B6F3b6778218d9",
+  "0x98443B96EA4b0858FDF3219Cd13e98C7A4690588",
+  "0x9879aBDea01a879644185341F7aF7d8343556B7a",
+  "0x993163CaD35162fB579D7B64e6695cB076EF5064",
+  "0x99956D38059cf7bEDA96Ec91Aa7BB2477E0901DD",
+  "0x9A2f5556e9A637e8fBcE886d8e3cf8b316a1D8a2",
+  "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
+  "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39",
+  "0x9F5F3CFD7a32700C93F971637407ff17b91c7342",
+  "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+  "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
+  "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D",
+  "0x9e004545c59D359F6B7BFB06a26390b087717b42",
+  "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc",
+  "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+  "0x9fB1d52596c44603198fB0aee434fac3a679f702",
+  "0xA069008A669e2Af00a86673D9D584cfb524A42Cc",
+  "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
+  "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "0xA1434F1FC3F437fa33F7a781E041961C0205B5Da",
+  "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
+  "0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3",
+  "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18",
+  "0xA33789a5478Add74e8D7628E817a281aAbD92dA9",
+  "0xA55C1e67039B6d59E91eb4cDa2bfc5A854989102",
+  "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+  "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac",
+  "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
+  "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18",
+  "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
+  "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57",
+  "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C",
+  "0xAec7d1069e3a914a3EB50f0BFB1796751f2ce48a",
+  "0xB1e93236ab6073fdAC58adA5564897177D4bcC43",
+  "0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762",
+  "0xB26631c6dda06aD89B93C71400D25692de89c068",
+  "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+  "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+  "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
+  "0xB7b31a6BC18e48888545CE79e83E06003bE70930",
+  "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+  "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+  "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a",
+  "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b",
+  "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+  "0xBD1fe73e1f12bD2bc237De9b626F056f21f86427",
+  "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53",
+  "0xBEc1e1009CE00ECf7F16372451Ac849b39C32897",
+  "0xBF05279F9Bf1CE69bBFEd670813b7e431142Afa4",
+  "0xBF84720097de111A80f46f9D077643967042841A",
+  "0xBFEf6cCFC830D3BaCA4F6766a0d4AaA242Ca9F3D",
+  "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
+  "0xBe428c3867F05deA2A89Fc76a102b544eaC7f772",
+  "0xBeC243C995409E6520D7C41E404da5dEba4b209B",
+  "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+  "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+  "0xC19a5caCC2bb68Ff09f2Fcc695F31493A039Fa5e",
+  "0xC1fdbed7Dac39caE2CcC0748f7a80dC446F6a594",
+  "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+  "0xC762043E211571eB34f1ef377e5e8e76914962f9",
+  "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2",
+  "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133",
+  "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+  "0xCDAF240C90F989847c56aC9Dee754F76F41c5833",
+  "0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3",
+  "0xD13c7342e1ef687C5ad21b27c2b65D772cAb5C8c",
+  "0xD17027b85Abf02721F953EE528721A980fa58941",
+  "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+  "0xD533a949740bb3306d119CC777fa900bA034cd52",
+  "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+  "0xD7380b10bF3886B34Ab3422DEa42E408850375CA",
+  "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6",
+  "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
+  "0xDC3326e71D45186F113a2F448984CA0e8D201995",
+  "0xDCe07662CA8EbC241316a15B611c89711414Dd1a",
+  "0xDE2F075f6F14EB9D96755b24E416A53E736Ca363",
+  "0xDa446fAd08277B4D2591536F204E018f32B6831c",
+  "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
+  "0xE0a60890BB7F9250089455620063fb6fe4DC159a",
+  "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+  "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+  "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+  "0xE5417Af564e4bFDA1c483642db72007871397896",
+  "0xE66747a101bFF2dBA3697199DCcE5b743b454759",
+  "0xE6Ce27025F13f5213bBc560dC275e292965a392F",
+  "0xE76e97C157658004eE22e01C03a5e21A4655A2Fd",
+  "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664",
+  "0xEe58E4D62b10A92dB1089d4D040B759C28aE16Cd",
+  "0xF411903cbC70a74d22900a5DE66A2dda66507255",
+  "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF",
+  "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+  "0xF7C71cab11E3694638Bb9A106E0F430565BD15F1",
+  "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+  "0xFC31366Be1795c1Ff444b9fBF55759733aD4d26D",
+  "0xFC3E14af0f0c2129a84Cc013D48C70D682902874",
+  "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+  "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335",
+  "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC",
+  "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
+  "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83",
+  "0xa22f6bc96f13bcC84dF36109c973d3c0505a067E",
+  "0xa2B726B1145A4773F68593CF171187d8EBe4d495",
+  "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9",
+  "0xa71EdC38d189767582C38A3145b5873052c3e47a",
+  "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3",
+  "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503",
+  "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
+  "0xaBC9547B534519fF73921b1FBA6E672b5f58D083",
+  "0xaD22f63404f7305e4713CcBd4F296f34770513f4",
+  "0xaFF9084f2374585879e8B434C399E29E80ccE635",
+  "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd",
+  "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
+  "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b",
+  "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810",
+  "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC",
+  "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
+  "0xb0DBa4BD6b6C4fC9A1263D8C19A57A6BdD740A52",
+  "0xb27d7bf95b03e02b55d5eb63d3f1692762101bf9",
+  "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+  "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8",
+  "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d",
+  "0xb49dd3eDB98FBe82A01DFcb556Cd016964baf5A3",
+  "0xb683D83a532e2Cb7DFa5275eED3698436371cc9f",
+  "0xb7A18bd55e8E3E2262d7c8Ee7b4DD9B216Df0Faf",
+  "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094",
+  "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787",
+  "0xb897D0a0f68800f8Be7D69ffDD1c24b69f57Bf3e",
+  "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+  "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
+  "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe",
+  "0xba100000625a3754423978a60c9317c58a424e3D",
+  "0xba9d4199faB4f26eFE3551D490E3821486f135Ba",
+  "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE",
+  "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e",
+  "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+  "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE",
+  "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+  "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842",
+  "0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437",
+  "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+  "0xc748673057861a797275CD8A068AbB95A902e8de",
+  "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+  "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44",
+  "0xcBBB3e5099F769F6d4E2b8b92DC0e268f7E099D8",
+  "0xcE186ad6430E2Fe494a22C9eDbD4c68794a28B35",
+  "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+  "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
+  "0xd17479997F34dd9156Deef8F95A52D81D265be9c",
+  "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+  "0xd2cDfD5d26dfA1D11116B9ED7DBd7C6B88C6e1D3",
+  "0xd362e096e873eb7907e205fadc6175c6fec7bc44",
+  "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf",
+  "0xd4ed60d8368a92b5F1ca33aF61eF2A94714B2d46",
+  "0xd501281565bf7789224523144Fe5D98e8B28f267",
+  "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+  "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD",
+  "0xd7c8469c7eC40f853dA5f651DE81b45aeD47e5aB",
+  "0xd8dec2b605005749abbf4b060edad3070e23cf5c",
+  "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782",
+  "0xd98F75b1A3261dab9eEd4956c93F33749027a964",
+  "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+  "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
+  "0xdB11743fe8B129b49b11236E8a715004BDabe7e5",
+  "0xdB25f211AB05b1c97D595516F45794528a807ad8",
+  "0xdE81028C743f5304fe2cdEfac588f572d629a687",
+  "0xdF574c24545E5FfEcb9a659c229253D4111d87e1",
+  "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
+  "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
+  "0xda73AE86D38D9b5D22C64722320cCC071cB79ba3",
+  "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c",
+  "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
+  "0xdfa3Ef49d357c6b0B2DfBB88701af2b7A053fD0A",
+  "0xe20B9e246db5a0d21BF9209E4858Bc9A3ff7A034",
+  "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
+  "0xe56a473043EaAB7947c0a2408cEA623074500EE3",
+  "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+  "0xeA998D307ACA04D4f0A3B3036Aba84AE2E409C0A",
+  "0xeBbfB9E5aF3172C7C0e1D4ff7106A8Bbb961F87B",
+  "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375",
+  "0xeaFE31Cd9e8E01C8f0073A2C974f728Fb80e9DcE",
+  "0xebF2096E01455108bAdCbAF86cE30b6e5A72aa52",
+  "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
+  "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47",
+  "0xf1938Ce12400f9a761084E7A80d37e732a4dA056",
+  "0xf2033ede578e17fa6231047265010445bca8cf1c",
+  "0xf2703e93f87b846a7aacec1247beaec1c583daa4",
+  "0xf2f77FE7b8e66571E0fca7104c4d670BF1C8d722",
+  "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
+  "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+  "0xf397f39ce992b0f5bdc7ec1109d676d07f7af2f9",
+  "0xf55aF137A98607F7ED2eFEfA4cd2DfE70E4253b1",
+  "0xf6372cDb9c1d3674E83842e3800F2A62aC9F3C66",
+  "0xfb5B838b6cfEEdC2873aB27866079AC55363D37E",
+  "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
+  "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b",
+  "0xfe59cbc1704e89a698571413a81f0de9d8f00c69",
+  "0xffb67c56c42b71144ae394dbfe298d863fbb3b9e"
+]
+-------
+Checking field: parent_coin
+Possible null values:
+163
+Possible enum values:
+[
+  null,
+  "AVAX",
+  "BNB",
+  "ETH",
+  "ETH-ARB20",
+  "FTM",
+  "HT",
+  "IRIS",
+  "KCS",
+  "MATIC",
+  "MOVR",
+  "QTUM",
+  "RSK",
+  "SLP",
+  "tQTUM",
+  "tSLP"
+]
+-------
+Checking field: swap_contract_address
+Possible null values:
+153
+Possible enum values:
+[
+  null,
+  "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+  "0x25bF2AAB8749AD2e4360b3e0B738f3Cd700C4D68",
+  "0x2f754733acd6d753731c00fee32cb484551cc15d",
+  "0x6D9CE4bD298de38Bafefd15F5C6F5c95313B1d94",
+  "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
+  "0x73c1Dd989218c3A154C71Fc08Eb55A24Bd2B3A10",
+  "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+  "0x9130b257d37a52e52f21054c4da3450c72f595ce",
+  "0xba8b71f3544b93e2f681f996da519a98ace0107a",
+  "0xcCD17C913aD7b772755Ad4F0BDFF7B34C6339150",
+  "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+]
+-------
+Checking field: nodes
+Possible null values:
+171
+Possible enum values:
+[
+  null,
+  [
+    {
+      "url": "https://smartbch.fountainhead.cash/mainnet",
+      "contact": {
+        "email": "blockparty-sh@yandex.com"
+      }
+    },
+    {
+      "url": "https://smartbch.greyh.at",
+      "contact": {
+        "email": "quest@mac.com"
+      }
+    }
+  ],
+  [
+    {
+      "url": "https://node.komodo.live:8080/arbitrum",
+      "gui_auth": true
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc"
+    }
+  ],
+  [
+    {
+      "url": "https://node.komodo.live:8080/avalanche",
+      "gui_auth": true
+    },
+    {
+      "url": "https://api.avax.network/ext/bc/C/rpc"
+    }
+  ],
+  [
+    {
+      "url": "https://node.komodo.live:8080/binance",
+      "gui_auth": true
+    },
+    {
+      "url": "http://bsc1.cipig.net:8655"
+    },
+    {
+      "url": "http://bsc2.cipig.net:8655"
+    },
+    {
+      "url": "http://bsc3.cipig.net:8655"
+    },
+    {
+      "url": "https://bsc1.cipig.net:18655"
+    },
+    {
+      "url": "https://bsc2.cipig.net:18655"
+    },
+    {
+      "url": "https://bsc3.cipig.net:18655"
+    }
+  ],
+  [
+    {
+      "url": "https://node.komodo.live:8080/ethereum",
+      "gui_auth": true
+    },
+    {
+      "url": "http://eth1.cipig.net:8555",
+      "contact": {
+        "email": "cipi@komodoplatform.com"
+      }
+    },
+    {
+      "url": "http://eth2.cipig.net:8555",
+      "contact": {
+        "email": "cipi@komodoplatform.com"
+      }
+    },
+    {
+      "url": "http://eth3.cipig.net:8555",
+      "contact": {
+        "email": "cipi@komodoplatform.com"
+      }
+    },
+    {
+      "url": "https://eth1.cipig.net:18555",
+      "contact": {
+        "email": "cipi@komodoplatform.com"
+      }
+    },
+    {
+      "url": "https://eth2.cipig.net:18555",
+      "contact": {
+        "email": "cipi@komodoplatform.com"
+      }
+    },
+    {
+      "url": "https://eth3.cipig.net:18555",
+      "contact": {
+        "email": "cipi@komodoplatform.com"
+      }
+    }
+  ],
+  [
+    {
+      "url": "https://node.komodo.live:8080/fantom",
+      "gui_auth": true
+    },
+    {
+      "url": "https://rpc.ftm.tools/"
+    }
+  ],
+  [
+    {
+      "url": "https://node.komodo.live:8080/harmony",
+      "gui_auth": true
+    },
+    {
+      "url": "https://api.harmony.one"
+    },
+    {
+      "url": "https://api.s0.t.hmny.io"
+    }
+  ],
+  [
+    {
+      "url": "https://node.komodo.live:8080/polygon",
+      "gui_auth": true
+    },
+    {
+      "url": "https://polygon-rpc.com"
+    },
+    {
+      "url": "https://poly-rpc.gateway.pokt.network"
+    }
+  ],
+  [
+    {
+      "url": "https://api.avax-test.network/ext/bc/C/rpc"
+    }
+  ],
+  [
+    {
+      "url": "https://data-seed-prebsc-1-s2.binance.org:8545"
+    }
+  ],
+  [
+    {
+      "url": "https://geth-de.etc-network.info"
+    },
+    {
+      "url": "https://geth-at.etc-network.info"
+    },
+    {
+      "url": "https://besu-de.etc-network.info"
+    },
+    {
+      "url": "https://besu-at.etc-network.info"
+    }
+  ],
+  [
+    {
+      "url": "https://http-mainnet.hecochain.com"
+    }
+  ],
+  [
+    {
+      "url": "https://public-node.rsk.co"
+    }
+  ],
+  [
+    {
+      "url": "https://rpc-mainnet.kcc.network"
+    },
+    {
+      "url": "https://kcc-rpc.com"
+    }
+  ],
+  [
+    {
+      "url": "https://rpc-mumbai.matic.today"
+    },
+    {
+      "url": "https://matic-mumbai.chainstacklabs.com"
+    },
+    {
+      "url": "https://rpc-mumbai.maticvigil.com"
+    }
+  ],
+  [
+    {
+      "url": "https://rpc.api.moonbeam.network"
+    }
+  ],
+  [
+    {
+      "url": "https://rpc.moonriver.moonbeam.network"
+    },
+    {
+      "url": "https://rpc.api.moonriver.moonbeam.network"
+    }
+  ],
+  [
+    {
+      "url": "https://rpc.octano.dev/"
+    }
+  ],
+  [
+    {
+      "url": "https://rpc.testnet.fantom.network/"
+    }
+  ]
+]
+-------
